@@ -1702,6 +1702,7 @@
 | [Reddit](https://www.reddit.com/dev/api)                                        | 互联网的主页                                     | `OAuth`  | 是   | 未知 |
 | [Revolt](https://developers.revolt.chat/api/)                                   | 开源的Discord替代品Revolt                        | `apiKey` | 是   | 未知 |
 | [Saidit](https://www.saidit.net/dev/api)                                        | 开源的Reddit克隆版                               | `OAuth`  | 是   | 未知 |
+| [SocialData API](https://socialdata.tools)                                      | 读Twitter数据                                | `apiKey`  | 是   | 否      |
 | [Slack](https://api.slack.com/)                                                 | 团队即时通讯软件                                   | `OAuth`  | 是   | 未知 |
 | [TamTam](https://dev.tamtam.chat/)                                              | 与TamTam进行交互的机器人API                         | `apiKey` | 是   | 未知 |
 | [Telegram Bot](https://core.telegram.org/bots/api)                              | 用于机器人的MTProto API的简化HTTP版本                 | `apiKey` | 是   | 未知 |
