@@ -2,7 +2,7 @@
 - 将public-apis项目翻译为中文版，并收集添加国内常用API
 - 欢迎大家点赞🌟和贡献添加、更新现有的API
 - 让这个项目成为**中文版免费API大全**。
-
+- 在描述前增加💰/ 🆓，以区分是收费/免费的API。
 
 # 目录
 * [天气](#天气)
@@ -156,26 +156,27 @@
 
 ## AI模型
 
-`因AI模型需强大的GPU算力，硬件投资、电力成本高，通常收费，免费额度有限，仅用于前期测试`
+`因AI模型需强大的GPU算力，硬件投资、电力成本高，通常收费，免费额度有限，如给予10～20元测试额度，并且会叠加有效期，一般只用于测试`
 
 
 
 | API                                                                                   | 描述                                                                                        | 认证方式         | 支持HTTPS |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------------------|-------|
-| [Ollama](https://ollama.com)                                                 | 利用本机CPU、GPU快速运行主流开源AI模型                                                   | `无`         | 否    |
-| [LM Studio](https://lmstudio.ai)                                              | 探索、从Hugging Face下载，运行本地AI模型，带聊天窗口           | `无`         | 否    |
-| [OpenAI](https://platform.openai.com/)                                                | ChatGPT官方API服务                                               | `apiKey`         | 是    |
-| [Azure OpenAI服务](https://azure.microsoft.com/zh-cn/products/ai-services/openai-service/)  | 微软Azure云提供的OpenAI服务                                             | `apiKey` | 是    |
-| [Claude](https://www.anthropic.com/api)                                      | 类似于OpenAI的GPT-4，由Anthropic提供                                                   | `apiKey`         | 是    |
-| [llama](https://llama.meta.com)                                                | Meta开源AI模型llama，自由下载本地使用                                               | `apiKey`         | 是    |
-| [Google Gemini](https://gemini.google.com/)  												| Google公司推出开源AI模型，以云服务提供API服务                                       | `apiKey` | 是    |
-| [Groq](https://www.groq.com/)                                                        | 利用LPU卡替换GPU，加速AI回答，特点是速度快                         | `apiKey`         | 是    |
-| [KIMI](https://platform.moonshot.cn)                              | 月之暗面科技研发，特点最早提供超长上下文的AI模型                                    | `apiKey`         | 是    |
-| [通义千问](https://tongyi.aliyun.com/)                                                      | 阿里巴巴开源AI模型，主要以云服务提供API服务                                                     | `apiKey`         | 是    |
-| [文心一言](https://wenxin.baidu.com/)                                          | 百度研发的商用AI模型                                                    | `apiKey`         | 是    |
-| [豆包](https://www.volcengine.com/product/doubao)                                        | 火山引擎提供的商用AI模型，特点是成本低                                                     | `apiKey`         | 是    |
-| [零一万物](https://platform.lingyiwanwu.com/)                                                | 李开复投资的AI模型公司，小模型开源，大模型以API提供服务                                             | `apiKey`         | 是    |
-| [ChatGLM](https://chatglm.cn) | 智谱清言推出的AI模型，特点是小模型开源，大规模的模型以API方式提供服务 | `apiKey`  | 是    |
+| [Ollama](https://ollama.com)                                                 | 🆓 利用本机CPU、GPU快速运行主流开源AI模型                                                   | `无`         | 否    |
+| [LM Studio](https://lmstudio.ai)                                              | 🆓 探索、从Hugging Face下载，运行本地AI模型，带聊天窗口           | `无`         | 否    |
+| [OpenAI](https://platform.openai.com/)                                                | 💰 ChatGPT官方API服务                                               | `apiKey`         | 是    |
+| [Azure OpenAI服务](https://azure.microsoft.com/zh-cn/products/ai-services/openai-service/)  | 💰 微软Azure云提供的OpenAI服务                                             | `apiKey` | 是    |
+| [Claude](https://www.anthropic.com/api)                                      | 💰 类似于OpenAI的GPT-4，由Anthropic提供                                                   | `apiKey`         | 是    |
+| [llama](https://llama.meta.com)                                                | 🆓 Meta开源AI模型llama，自由下载本地使用                                               | `apiKey`         | 是    |
+| [Google Gemini](https://gemini.google.com/)  												| 💰 Google公司推出开源AI模型，以云服务提供API服务                                       | `apiKey` | 是    |
+| [Groq](https://www.groq.com/)                                                        | 🆓+💰利用LPU卡替换GPU，加速AI回答，特点是速度快，每秒300～500个tokens。免费帐户：llama3-70限制每分钟6000tokens                         | `apiKey`         | 是    |
+| [KIMI](https://platform.moonshot.cn)                              | 💰月之暗面科技研发，特点最早提供超长上下文的AI模型                                    | `apiKey`         | 是    |
+| [通义千问](https://tongyi.aliyun.com/)                                                      | 🆓💰阿里巴巴开源AI模型，主要以云服务提供API服务                                                     | `apiKey`         | 是    |
+| [文心一言](https://wenxin.baidu.com/)                                          | 💰 百度研发的商用AI模型                                                    | `apiKey`         | 是    |
+| [豆包](https://www.volcengine.com/product/doubao)                                        | 💰 火山引擎提供的商用AI模型：Doubao-pro-128k，百万tokens/输入5元/输出9元                                                     | `apiKey`         | 是    |
+| [深度求索DeepSeek](https://www.deepseek.com)                                        | 💰 国产新的价格卷王，深度求索公司AI模型：DeepSeek-V2-128K，百万tokens/输入1元/输出2元                                                     | `apiKey`         | 是    |
+| [零一万物](https://platform.lingyiwanwu.com/)                                                | 🆓+💰李开复投资的AI模型公司，小模型开源，大模型以API提供服务                                             | `apiKey`         | 是    |
+| [ChatGLM](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，特点是小模型开源，大规模的模型以API方式提供服务 | `apiKey`  | 是    |
 
 
 **[⬆ 返回目录](#目录)**
@@ -1702,7 +1703,7 @@
 | [Reddit](https://www.reddit.com/dev/api)                                        | 互联网的主页                                     | `OAuth`  | 是   | 未知 |
 | [Revolt](https://developers.revolt.chat/api/)                                   | 开源的Discord替代品Revolt                        | `apiKey` | 是   | 未知 |
 | [Saidit](https://www.saidit.net/dev/api)                                        | 开源的Reddit克隆版                               | `OAuth`  | 是   | 未知 |
-| [SocialData API](https://socialdata.tools)                                      | 读Twitter数据                                | `apiKey`  | 是   | 否      |
+| [SocialData API](https://socialdata.tools)                                      | 💰读Twitter数据                                | `apiKey`  | 是   | 否      |
 | [Slack](https://api.slack.com/)                                                 | 团队即时通讯软件                                   | `OAuth`  | 是   | 未知 |
 | [TamTam](https://dev.tamtam.chat/)                                              | 与TamTam进行交互的机器人API                         | `apiKey` | 是   | 未知 |
 | [Telegram Bot](https://core.telegram.org/bots/api)                              | 用于机器人的MTProto API的简化HTTP版本                 | `apiKey` | 是   | 未知 |
