@@ -70,6 +70,7 @@
 
 | API                                                                                   | 描述                                                                                        | 认证方式         | 支持HTTPS |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------------------|-------|
+| [ChatGLM](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，GLM-4-Flash模型免费！视频和图像理解、生成等多模态Plus模型收费 | `apiKey`  | 是    |
 | [Ollama](https://ollama.com)                                                 | 🆓 利用本机CPU、GPU快速运行主流开源AI模型                                                   | `无`         | 否    |
 | [LM Studio](https://lmstudio.ai)                                              | 🆓 探索、从Hugging Face下载，运行本地AI模型，带聊天窗口           | `无`         | 否    |
 | [OpenAI](https://platform.openai.com/)                                                | 💰 ChatGPT官方API服务                                               | `apiKey`         | 是    |
@@ -84,7 +85,6 @@
 | [豆包](https://www.volcengine.com/product/doubao)                                        | 💰 火山引擎提供的商用AI模型：Doubao-pro-128k，百万tokens/输入5元/输出9元                                                     | `apiKey`         | 是    |
 | [深度求索DeepSeek](https://www.deepseek.com)                                        | 💰 国产新的价格卷王，深度求索公司AI模型：DeepSeek-V2-128K，百万tokens/输入1元/输出2元                                                     | `apiKey`         | 是    |
 | [零一万物](https://platform.lingyiwanwu.com/)                                                | 🆓+💰李开复投资的AI模型公司，小模型开源，大模型以API提供服务                                             | `apiKey`         | 是    |
-| [ChatGLM](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，特点是小模型开源，大规模的模型以API方式提供服务 | `apiKey`  | 是    |
 | [孟子](https://www.langboat.com/) | 🆓+💰澜舟科技的孟子3-13B模型开源；标准大模型收费；特点是轻量模型优胜成绩| `apiKey`  | 是    |
 
 
