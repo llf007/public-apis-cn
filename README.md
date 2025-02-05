@@ -70,14 +70,14 @@
 
 | API                                                                                   | 描述                                                                                        | 认证方式         | 支持HTTPS |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------------------|-------|
-| [深度求索DeepSeek](https://www.deepseek.com)                                        | 🆓+💰 深度求索公司开源的AI模型，性能对标OpenAI o1，还是MIT开源协议！deepseek-reasoner模型API：百万tokens/输入4元/输出16元，deepseek-chat模型API：百万tokens/输入2元/输出8元                                                    | `apiKey`         | 是    |
+| [深度求索DeepSeek](https://www.deepseek.com)                                        | 🆓+💰 深度求索公司开源的AI模型，性能对标OpenAI o1，并且是非常友好的MIT开源协议！deepseek-reasoner模型API：百万tokens/输入4元/输出16元，deepseek-chat模型API：百万tokens/输入2元/输出8元                                                    | `apiKey`         | 是    |
 | [ChatGLM](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，GLM-4-Flash模型免费！视频和图像理解、生成等多模态Plus模型收费 | `apiKey`  | 是    |
 | [Ollama](https://ollama.com)                                                 | 🆓 利用本机CPU、GPU快速运行主流开源AI模型                                                   | `无`         | 否    |
 | [LM Studio](https://lmstudio.ai)                                              | 🆓 探索、从Hugging Face下载，运行本地AI模型，带聊天窗口           | `无`         | 否    |
 | [OpenAI](https://platform.openai.com/)                                                | 💰 ChatGPT官方API服务                                               | `apiKey`         | 是    |
 | [Azure OpenAI服务](https://azure.microsoft.com/zh-cn/products/ai-services/openai-service/)  | 💰 微软Azure云提供的OpenAI服务                                             | `apiKey` | 是    |
 | [Claude](https://www.anthropic.com/api)                                      | 💰 由Anthropic公司提供，与OpenAI的竞争                                                   | `apiKey`         | 是    |
-| [xAI](xAI)                                      | 🆓+💰马斯克的xAI公司，旧版本github.com/xai-org/grok-1开源；grok-2以API服务收费（官方写着2美元/10美元）：百万tokens/输入14元/输出70元；grok-3训练使用10万张H100 GPU，性能超o1 Pro模型，待发布                                                   | `apiKey`         | 是    |
+| [xAI](https://x.ai)                                      | 🆓+💰马斯克投资的xAI公司，旧版本github.com/xai-org/grok-1开源；grok-2以API服务收费（官方写着2美元/10美元）：百万tokens/输入14元/输出70元；grok-3训练使用10万张H100 GPU，性能超o1 Pro模型，待发布。                                                   | `apiKey`         | 是    |
 | [llama](https://llama.meta.com)                                                | 🆓 Meta开源AI模型llama，自由下载本地使用                                               | `apiKey`         | 是    |
 | [Google Gemini](https://gemini.google.com/)  												| 💰 Google公司推出开源AI模型，以云服务提供API服务                                       | `apiKey` | 是    |
 | [Groq](https://www.groq.com/)                                                        | 🆓+💰利用LPU卡替换GPU，加速AI回答，特点是速度快，每秒300～500个tokens。免费帐户：llama3-70限制每分钟6000tokens                         | `apiKey`         | 是    |
