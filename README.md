@@ -64,13 +64,17 @@
 
 ## AI模型
 
-`因AI模型需强大的GPU算力，硬件投资、电力成本高，通常收费，免费额度有限，如给予10～20元测试额度，并且会叠加有效期，一般只用于测试`
+`因AI模型需强大的GPU算力，硬件投资、电力成本高，通常收费，免费额度有限，如给予10～20元API额度，并且会叠加有效期，一般只用于测试。`
+`真正能免费是将训练后的模型开源，国内最有名是DeepSeek、KIMI、ChatGLM均以将最强模型开源`
 
 
 
 | API                                                                                   | 描述                                                                                        | 认证方式         | 支持HTTPS |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------------------|-------|
-| [深度求索DeepSeek](https://www.deepseek.com)                                        | 🆓+💰 深度求索公司开源的AI模型，性能对标OpenAI o1，并且是非常友好的MIT开源协议！deepseek-reasoner模型API：百万tokens/输入4元/输出16元，deepseek-chat模型API：百万tokens/输入2元/输出8元                                                    | `apiKey`         | 是    |
+| [DeepSeek深度求索](https://www.deepseek.com)                                        | 🆓+💰 深度求索公司开源的AI模型，性能对标OpenAI o1，并且是非常友好的MIT开源协议！deepseek-reasoner模型API：百万tokens/输入4元/输出16元，deepseek-chat模型API：百万tokens/输入2元/输出8元                                                    | `apiKey`         | 是    |
+| [KIMI](https://platform.moonshot.cn)                              | 🆓 +💰月之暗面科技研发，特点最早提供超长上下文的AI模型，Kimi K2已开源！                                    | `apiKey`         | 是    |
+| [ChatGLM智谱](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，GLM-4.5模型开源！ | `apiKey`  | 是    |
+| [Qwen通义千问](https://tongyi.aliyun.com/)                                                      | 🆓💰阿里巴巴开源AI模型，主要以云服务提供API服务                                                     | `apiKey`         | 是    |
 | [Ollama](https://ollama.com)                                                 | 🆓 利用本机CPU、GPU快速运行主流开源AI模型                                                   | `无`         | 否    |
 | [LM Studio](https://lmstudio.ai)                                              | 🆓 探索、从Hugging Face下载，运行本地AI模型，带聊天窗口           | `无`         | 否    |
 | [xAI](https://x.ai)                                      | 🆓+💰马斯克投资的xAI公司，旧版本github.com/xai-org/grok-1开源；grok-4大力出奇迹，训练使用了约20万张H100 GPU，百万tokens输入/输出：3/5美元。                                                   | `apiKey`         | 是    |
@@ -80,22 +84,23 @@
 | [Azure OpenAI服务](https://azure.microsoft.com/zh-cn/products/ai-services/openai-service/)  | 💰 微软Azure云提供的OpenAI服务                                             | `apiKey` | 是    |
 | [Claude](https://www.anthropic.com/api)                                      | 💰 由Anthropic公司提供，与OpenAI的竞争                                                   | `apiKey`         | 是    |
 | [Groq](https://www.groq.com/)                                                        | 🆓+💰利用LPU卡替换GPU，加速AI回答，特点是速度快，每秒300～500个tokens。免费帐户：llama3-70限制每分钟6000tokens                         | `apiKey`         | 是    |
-| [KIMI](https://platform.moonshot.cn)                              | 🆓 +💰月之暗面科技研发，特点最早提供超长上下文的AI模型，Kimi K2已开源                                    | `apiKey`         | 是    |
-| [ChatGLM](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，GLM-4-Flash模型免费！视频和图像理解、生成等多模态Plus模型收费 | `apiKey`  | 是    |
-| [通义千问](https://tongyi.aliyun.com/)                                                      | 🆓💰阿里巴巴开源AI模型，主要以云服务提供API服务                                                     | `apiKey`         | 是    |
 | [文心一言](https://wenxin.baidu.com/)                                          | 💰 百度研发的商用AI模型                                                    | `apiKey`         | 是    |
 | [豆包](https://www.volcengine.com/product/doubao)                                        | 💰 火山引擎提供的商用AI模型：Doubao-pro-128k，百万tokens/输入5元/输出9元                                                     | `apiKey`         | 是    |
 | [零一万物](https://platform.lingyiwanwu.com/)                                                | 🆓+💰李开复投资的AI模型公司，小模型开源，大模型以API提供服务                                             | `apiKey`         | 是    |
 | [孟子](https://www.langboat.com/) | 🆓+💰澜舟科技的孟子3-13B模型开源；标准大模型收费；特点是轻量模型优胜成绩| `apiKey`  | 是    |
 
-根据网友的反馈，增加了模型**聪明程度**、**速度**、**成本**截图，仅供参考。了解最新的情况，请访问[https://artificialanalysis.ai](https://artificialanalysis.ai)
-<img width="1579" height="788" alt="image" src="https://github.com/user-attachments/assets/d65d0482-d750-4588-bdb8-c5efb089ec60" />
+
+<img width="1513" height="359" alt="image" src="https://github.com/user-attachments/assets/1eefa645-7848-4e7a-bc21-424a32ff90f8" />
+增加了模型智能程度、速度、成本，数据来源artificialanalysis仅供参考。
+
+
+
 
 
 ## 天气
 | API                                                                           | 描述                                | 认证Auth         | 支持HTTPS | 跨域CORS    |
 |-------------------------------------------------------------------------------|-----------------------------------|--------------|-------|---------|
-| [7Timer!](http://www.7timer.info/doc.php?lang=en)                             | 天气预报                     | 否           | 否    | 未知 |
+| [7Timer!](http://www.7timer.info/doc.php?lang=zh-CN)                             | 国内除了查询慢点，好处是不需要APIKey！                     | 否           | 否    | 未知 |
 | [墨迹天气API](https://www.mojicb.com/support)									| 提供分钟级、公里级天气预报     | `apiKey`     | 是   | 未知 |
 | [高德天气API](https://lbs.amap.com/api/webservice/guide/api/weatherinfo) 		| 实时和未来数天的天气预报服务           | `apiKey`     | 是   | 未知 |
 | [和风天气API](https://www.qweather.com/)                                      | 提供实时、三日、七日天气预报           | `apiKey`     | 是   | 未知 |
