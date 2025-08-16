@@ -84,15 +84,16 @@
 | [OpenAI](https://platform.openai.com/)                                                | 🆓+💰 ChatGPT官方API服务，开源gpt‑oss‑120b 接近 o4‑mini，gpt‑oss‑20b接近 o3‑mini                                               | `apiKey`         | 是    |
 | [Azure OpenAI](https://azure.microsoft.com/zh-cn/products/ai-services/openai-service/)  | 💰 微软Azure云提供的OpenAI服务                                             | `apiKey` | 是    |
 | [Claude](https://www.anthropic.com/api)                                      | 💰 由Anthropic公司提供，与OpenAI的竞争                                                   | `apiKey`         | 是    |
-| [Groq](https://www.groq.com/)                                                        | 🆓+💰利用LPU卡替换GPU，加速AI回答，特点是速度快，每秒300～500个tokens。免费帐户：llama3-70限制每分钟6000tokens                         | `apiKey`         | 是    |
-| [Cerebras](https://www.cerebras.net/)                                                        | 💰 以速度著称，专用AI芯片和推理引擎支持，每秒可达约2000 tokens，适合低延迟大规模推理场景                         | `apiKey`         | 是    |
+| [Groq](https://www.groq.com/)                                                        | 🆓+💰利用LPU卡替换GPU，加速AI回答，特点是速度快，每秒300～500个tokens。免费帐户：限制每分钟6000 token                         | `apiKey`         | 是    |
+| [Cerebras](https://www.cerebras.net/)                                                        | 💰 以速度著称，专用AI芯片和推理引擎支持，每秒可达约2000 tokens，免费账户：限制每分钟64000 token                         | `apiKey`         | 是    |
 | [文心一言](https://wenxin.baidu.com/)                                          | 💰 百度研发的商用AI模型                                                    | `apiKey`         | 是    |
 | [豆包](https://www.volcengine.com/product/doubao)                                        | 💰 火山引擎提供的商用AI模型：Doubao-pro-128k，百万tokens/输入5元/输出9元                                                     | `apiKey`         | 是    |
 | [零一万物](https://platform.lingyiwanwu.com/)                                                | 🆓+💰李开复投资的AI模型公司，小模型开源，大模型以API提供服务，现已转型Agent平台                                             | `apiKey`         | 是    |
 | [孟子](https://www.langboat.com/) | 🆓+💰澜舟科技的孟子3-13B模型开源；标准大模型收费；特点是轻量模型优胜成绩| `apiKey`  | 是    |
 
 
-<img width="1513" height="359" alt="image" src="https://github.com/user-attachments/assets/1eefa645-7848-4e7a-bc21-424a32ff90f8" />
+<img width="1511" height="358" alt="image" src="https://github.com/user-attachments/assets/45cbd86f-55d4-46e3-97d7-0076e08ee6c0" />
+
 增加了模型智能程度、速度、成本，数据来源artificialanalysis仅供参考。
 
 
