@@ -72,7 +72,7 @@
 
 | API                                                                                   | 描述                                                                                        | 认证方式         | 支持HTTPS |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------------------|-------|
-| [DeepSeek深度求索](https://www.deepseek.com)                                        | 🆓+💰 深度求索公司开源的AI模型，非常友好的MIT开源协议！deepseek-reasoner模型API：百万tokens/输入4元/输出16元，deepseek-chat模型API：百万tokens/输入2元/输出8元                                                    | `apiKey`         | 是    |
+| [DeepSeek深度求索](https://www.deepseek.com)                                        | 🆓+💰 深度求索公司开源的AI模型，非常友好的MIT开源协议！v3.1模型发布后deepseek-reasoner、deepseek-chat模型API：百万tokens/输入4元/输出12元                                                    | `apiKey`         | 是    |
 | [KIMI](https://platform.moonshot.cn)                              | 🆓 +💰月之暗面科技研发，特点最早提供超长上下文的AI模型，Kimi K2已开源！                                    | `apiKey`         | 是    |
 | [ChatGLM智谱](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，GLM-4.5模型开源！ | `apiKey`  | 是    |
 | [Qwen通义千问](https://tongyi.aliyun.com/)                                                      | 🆓💰阿里巴巴开源AI模型，主要以云服务提供API服务                                                     | `apiKey`         | 是    |
