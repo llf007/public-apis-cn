@@ -92,9 +92,10 @@
 | [孟子](https://www.langboat.com/) | 🆓+💰澜舟科技的孟子3-13B模型开源；标准大模型收费；特点是轻量模型优胜成绩| `apiKey`  | 是    |
 
 
-<img width="1511" height="358" alt="image" src="https://github.com/user-attachments/assets/45cbd86f-55d4-46e3-97d7-0076e08ee6c0" />
+<img width="3028" height="846" alt="image" src="https://github.com/user-attachments/assets/0313ddb0-f7c4-40d9-abf4-48b82ab79114" />
 
-增加了模型智能程度、速度、成本，数据来源artificialanalysis仅供参考。
+
+增加了模型智能程度、速度、成本，数据来源 artificialanalysis.ai 仅供参考。
 
 
 
