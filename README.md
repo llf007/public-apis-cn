@@ -72,16 +72,16 @@
 
 `因AI模型需强大的GPU算力，硬件投资、电力成本高，通常收费，免费额度有限，如给予10～20元API额度，并且会叠加有效期，一般只用于测试。`
 
-`真正能免费是将训练后的模型开源，国内最有名是DeepSeek、Qwen、KIMI、ChatGLM、minimax均以将最强模型开源。`
+`真正能免费是将训练后的模型开源，国内最有名是DeepSeek、Qwen、KIMI、ChatGLM、MiniMax均以将最强模型开源。`
 
 | API | 描述 | 认证方式 | 支持HTTPS |
 |:---|:---|:---:|:---:|
 | [NVIDIA NIM](https://build.nvidia.com/models) | 🆓 英伟达官方推理加速平台，提供 1000+ 免费积分试用，集成 Llama、DeepSeek 等主流开源模型，限制 40 RPM | 是 | 是 |
 | [DeepSeek深度求索](https://www.deepseek.com) | 🆓+💰 深度求索公司开源的AI模型，非常友好的MIT开源协议！v3.2模型发布后deepseek-reasoner、deepseek-chat模型API：百万tokens/输入2元/输出3元！ | `apiKey` | 是 |
-| [Qwen通义千问](https://tongyi.aliyun.com/) | 🆓💰阿里巴巴开源AI模型，中型以下模型开源，MAX版主要以云服务提供API，网友称真正的OpenAI | `apiKey` | 是 |
+| [Qwen通义千问](https://tongyi.aliyun.com/) | 🆓💰阿里巴巴开源AI模型，中型以下模型开源，MAX模型主要以云服务提供API，网友称真正的OpenAI | `apiKey` | 是 |
 | [KIMI](https://platform.moonshot.cn) | 🆓 +💰月之暗面科技研发，特点最早提供超长百万上下文的AI模型，千亿级参数 | `apiKey` | 是 |
-| [ChatGLM智谱](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，主打toB模式， | `apiKey` | 是 |
-| [minimax](https://api.minimax.chat) | 🆓+💰 公司香港上市，开源+官网API套餐，主打toC路线 | `apiKey` | 是 |
+| [ChatGLM智谱](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，主打toB企业，AI公司港股上市第一股 | `apiKey` | 是 |
+| [MiniMax](https://platform.minimaxi.com) | 🆓+💰 开源+官网API套餐，主打toC个人，港股上市比智谱晚一天 | `apiKey` | 是 |
 | [Ollama](https://ollama.com) | 🆓 利用本机CPU、GPU快速运行主流开源AI模型 | `无` | 否 |
 | [LM Studio](https://lmstudio.ai) | 🆓 探索、从Hugging Face下载，运行本地AI模型，带聊天窗口 | `无` | 否 |
 | [xAI](https://x.ai) | 🆓+💰马斯克投资的xAI公司，旧版本github.com/xai-org/grok-1开源；grok-4大力出奇迹，训练使用了约20万张H100 GPU，百万tokens输入/输出：3/5美元。 | `apiKey` | 是 |
