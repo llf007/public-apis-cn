@@ -1307,6 +1307,7 @@
 | [Dialogflow](https://cloud.google.com/dialogflow/docs/)                           | 自然语言处理                                            | `apiKey` | 是   | 未知 |
 | [EXUDE-API](http://uttesh.com/exude-api/)                                         | 用于从文本数据中过滤停用词、词干化的主要方法                            | 否       | 是   | 是     |
 | [Gladia](https://api.gladia.io/docs)                                              | 人工智能API                                           | `apiKey` | 是   | 否      |
+| [HOL Registry Broker](https://hol.org/docs/registry-broker/) | 🆓+💰 AI代理与MCP服务器统一发现/验证/聊天API（OpenAPI） | `apiKey` | 是   | 是     |
 | [Imagga](https://imagga.com/)                                                     | 图像识别解决方案，如标记、视觉搜索、不安全内容管理                         | `apiKey` | 是   | 未知 |
 | [Inferdo](https://rapidapi.com/user/inferdo)                                      | 计算机视觉服务，如人脸检测、图像标注、不良内容分类                         | `apiKey` | 是   | 未知 |
 | [IPS Online](https://docs.identity.ps/docs)                                       | 人脸和车牌匿名化                                          | `apiKey` | 是   | 未知 |
