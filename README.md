@@ -1100,6 +1100,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 | [Postali](https://postali.app/api) | 墨西哥邮政编码API | No | Yes | Yes |
 | [PostcodeData.nl](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) | 根据荷兰地址的邮政编码提供地理定位数据 | No | No | Unknown |
 | [Postcodes.io](https://postcodes.io) | 英国邮编查询和地理定位 | No | Yes | Yes |
+| [PostalCodes](https://postalcodes.info/api) | 全球邮政编码查询、国家数据导出和地址验证数据 | No | Yes | No |
 | [Queimadas INPE](https://queimadas.dgi.inpe.br/queimadas/dados-abertos/) | 访问热焦点数据（可能的野火） | No | Yes | Unknown |
 | [REST Countries](https://restcountries.com) | 通过RESTful API获取国家信息 | No | Yes | Yes |
 | [RoadGoat Cities](https://www.roadgoat.com/business/cities-api) | 城市内容和照片API | `apiKey` | Yes | No |
