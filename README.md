@@ -77,27 +77,30 @@
 | API | 描述 | 认证方式 | 支持HTTPS |
 |:---|:---|:---:|:---:|
 | [NVIDIA NIM](https://build.nvidia.com/models) | 🆓 英伟达官方推理加速平台，提供 1000+ 免费积分试用，集成 Llama、DeepSeek 等主流开源模型，限制 40 RPM | 是 | 是 |
-| [DeepSeek深度求索](https://www.deepseek.com) | 🆓+💰 深度求索公司开源的AI模型，非常友好的MIT开源协议！v3.2模型发布后deepseek-reasoner、deepseek-chat模型API：百万tokens/输入2元/输出3元！ | `apiKey` | 是 |
+| [DeepSeek深度求索](https://www.deepseek.com) | 🆓+💰 深度求索公司开源的AI模型，非常友好的MIT开源协议！AI模型界的“拼多多” | `apiKey` | 是 |
 | [Qwen通义千问](https://tongyi.aliyun.com/) | 🆓💰阿里巴巴开源AI模型，中型以下模型开源，MAX模型主要以云服务提供API，网友称真正的OpenAI | `apiKey` | 是 |
 | [KIMI](https://platform.moonshot.cn) | 🆓 +💰月之暗面科技研发，特点最早提供超长百万上下文的AI模型，千亿级参数 | `apiKey` | 是 |
 | [ChatGLM智谱](https://chatglm.cn) | 🆓+💰智谱清言推出的AI模型，主打toB企业，AI公司港股上市第一股 | `apiKey` | 是 |
 | [MiniMax](https://platform.minimaxi.com) | 🆓+💰 开源+官网API套餐，主打toC个人，港股上市比智谱晚一天 | `apiKey` | 是 |
 | [Ollama](https://ollama.com) | 🆓 利用本机CPU、GPU快速运行主流开源AI模型 | `无` | 否 |
 | [LM Studio](https://lmstudio.ai) | 🆓 探索、从Hugging Face下载，运行本地AI模型，带聊天窗口 | `无` | 否 |
-| [xAI](https://x.ai) | 🆓+💰马斯克投资的xAI公司，旧版本github.com/xai-org/grok-1开源；grok-4大力出奇迹，训练使用了约20万张H100 GPU，百万tokens输入/输出：3/5美元。 | `apiKey` | 是 |
+| [xAI](https://x.ai) | 🆓+💰马斯克投资的xAI公司，大力出奇迹，训练使用了约20万张H100 GPU。xAI被合并纳入SpaceX，22万张GPU租给Anthropic | `apiKey` | 是 |
 | [llama](https://llama.meta.com) | 🆓 Meta开源AI模型llama，自由下载本地使用 | `apiKey` | 是 |
-| [Google Gemini](https://gemini.google.com/) | 💰 Google公司推出AI模型，以云服务提供API服务，特点支持百万tokens输入上下文，开源Gemma（最大27B）小型模型免费 | `apiKey` | 是 |
+| [Google Gemini](https://gemini.google.com/) | 💰 Google公司推出AI模型，以云服务提供API服务，特点支持百万tokens输入上下文，开源Gemma小型模型免费 | `apiKey` | 是 |
 | [OpenAI](https://platform.openai.com/) | 🆓+💰 ChatGPT官方API服务，开源gpt‑oss‑120b 接近 o4‑mini，gpt‑oss‑20b接近 o3‑mini，网友称其CloseAI | `apiKey` | 是 |
 | [Azure OpenAI](https://azure.microsoft.com/zh-cn/products/ai-services/openai-service/) | 💰 微软Azure云提供的OpenAI服务 | `apiKey` | 是 |
-| [Claude](https://www.anthropic.com/api) | 💰 由Anthropic公司提供，与OpenAI竞争激励 | `apiKey` | 是 |
-| [Groq](https://www.groq.com/) | 🆓+💰利用LPU卡替换GPU，加速AI回答，特点是速度快，每秒300～500个tokens。免费帐户：限制每分钟6000 token | `apiKey` | 是 |
-| [Cerebras](https://www.cerebras.net/) | 💰 以速度著称，专用AI芯片和推理引擎支持，每秒可达约2000 tokens，免费账户：限制每分钟64000 token | `apiKey` | 是 |
-| [文心一言](https://wenxin.baidu.com/) | 💰 百度研发的商用AI模型 | `apiKey` | 是 |
-| [豆包](https://www.volcengine.com/product/doubao) | 💰 火山引擎提供的商用AI模型：Doubao-pro-128k，百万tokens/输入5元/输出9元 | `apiKey` | 是 |
+| [Claude](https://www.anthropic.com/api) | 💰 由Anthropic公司提供，与OpenAI竞争激烈 | `apiKey` | 是 |
+| [Groq](https://www.groq.com/) | 🆓+💰利用LPU卡替换GPU，加速AI回答，特点是速度快，每秒300～500个tokens。已被英伟达收购 | `apiKey` | 是 |
+| [Cerebras](https://www.cerebras.net/) | 💰 以速度著称，专用AI芯片和推理引擎支持，每秒可达约2000 tokens，免费帐户只能在线体验 | `apiKey` | 是 |
+| [文心一言](https://wenxin.baidu.com/) | 💰 百度研发的商用AI模型，也开源过ERNIE大模型，让开发者印象深刻还是PaddleOCR模型 | `apiKey` | 是 |
+| [豆包](https://www.volcengine.com/product/doubao) | 💰 火山引擎提供的豆包系列商用AI模型 | `apiKey` | 是 |
+| [小米Mimo](https://mimo.xiaomi.com/zh/index) | 🆓+💰 小米公司开源的MiMo系列AI大模型 | `apiKey` | 是 |
+| [美团LongCat](https://longcat.chat) | 🆓+💰 美团公司开源的LongCat龙猫系列AI大模型 | `apiKey` | 是 |
 | [零一万物](https://platform.lingyiwanwu.com/) | 🆓+💰李开复投资的AI模型公司，小模型开源，大模型以API提供服务，现已转型Agent平台 | `apiKey` | 是 |
-| [孟子](https://www.langboat.com/) | 🆓+💰澜舟科技的孟子3-13B模型开源；标准大模型收费；特点是轻量模型优胜成绩 | `apiKey` | 是 |
+| [孟子](https://www.langboat.com/) | 🆓+💰澜舟科技的孟子3-13B模型开源，已转型Agent平台 | `apiKey` | 是 |
 
-<img width="1546" height="804" alt="image" src="https://github.com/user-attachments/assets/88a1f14e-a189-4c69-97f8-3d165861d06d" />
+
+<img width="1425" height="435" alt="image" src="https://github.com/user-attachments/assets/54c6a0a8-981b-42a7-a1e4-ff74edf3e829" />
 
 
 增加了模型智能程度、速度、成本，数据来源 artificialanalysis.ai 仅供参考。
@@ -108,7 +111,7 @@
 
 > 国内天气API以 README.md 为准。
 
-| API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+| API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [7Timer!](http://www.7timer.info/doc.php?lang=zh-CN) | 国内除了查询慢点，好处是不需要APIKey！ | 否 | 否 | 未知 |
 | [墨迹天气API](https://www.mojicb.com/support) | 提供分钟级、公里级天气预报 | `apiKey` | 是 | 未知 |
@@ -151,7 +154,7 @@
 
 ### 国内物流
 
-| API | 描述 | 认证方式 | 支持HTTPS | 跨域CORS |
+| API | 描述 | 认证方式 | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [快递100](https://api.kuaidi100.com/home) | 提供多家快递公司的物流信息查询服务 | `apiKey` | 是 | 未知 |
 | [51Tracking](https://www.51tracking.com/) | 提供全球快递物流查询服务 | `apiKey` | 是 | 未知 |
@@ -172,7 +175,7 @@
 
 ### 国际物流
 
-| API | 描述 | 认证方式 | 支持HTTPS | 跨域CORS |
+| API | 描述 | 认证方式 | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [AfterShip](https://www.aftership.com/docs) | 支持超过200家物流公司的物流跟踪和通知 | `apiKey` | 是 | 未知 |
 | [Ship24](https://www.ship24.com/zh/couriers) | 提供多家物流公司的全球包裹追踪服务 | `apiKey` | 是 | 未知 |
@@ -190,7 +193,7 @@
 
 
 ### 视频
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [An API of Ice And Fire](https://anapioficeandfire.com/) | 权力的游戏API | No | Yes | Unknown |
 | [Bob's Burgers](https://bobs-burgers-api-ui.herokuapp.com) | Bob's汉堡店API | No | Yes | Yes |
@@ -240,7 +243,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 车辆
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Brazilian Vehicles and Prices](https://deividfortuna.github.io/fipe/) | 来自经济研究所基金会(Fipe)的车辆信息 | No | Yes | No |
 | [Helipaddy sites](https://helipaddy.com/api/) | 直升机和客运无人机着陆点目录、Helipaddy数据及更多 | `apiKey` | Yes | Unknown |
@@ -253,7 +256,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### URL 缩短服务
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [1pt](https://github.com/1pt-co/api/blob/main/README.md) | 简单的URL缩短服务 | No | Yes | Yes |
 | [Bitly](http://dev.bitly.com/get_started.html) | URL缩短和链接管理 | `OAuth` | Yes | Unknown |
@@ -279,7 +282,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 交通
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [ADS-B Exchange](https://www.adsbexchange.com/data/) | 获取所有空中飞机的实时和历史数据 | No | Yes | Unknown |
 | [airportsapi](https://airport-web.appspot.com/api/docs/) | 通过ICAO代码获取机场名称和网站URL | No | Yes | Unknown |
@@ -355,7 +358,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 跟踪
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Aftership](https://developers.aftership.com/reference/quick-start) | 高效更新、管理和跟踪货物的API | `apiKey` | Yes | Yes |
 | [Correios](https://cws.correios.com.br/ajuda) | 使用Correios服务提供信息和准备运输的集成 | `apiKey` | Yes | Unknown |
@@ -371,7 +374,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 文本分析
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Code Detection API](https://codedetectionapi.runtime.dev) | 检测、标记、格式化和丰富您的应用程序或数据管道中的代码 | `OAuth` | Yes | Unknown |
 | [apilayer languagelayer](https://languagelayer.com/) | 支持173种语言的语言检测JSON API | `OAuth` | Yes | Unknown |
@@ -393,7 +396,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 测试数据
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Bacon Ipsum](https://baconipsum.com/json-api/) | 更丰富的Lorem Ipsum生成器 | No | Yes | Unknown |
 | [Dicebear Avatars](https://avatars.dicebear.com/) | 生成随机像素艺术头像 | No | Yes | No |
@@ -425,7 +428,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 体育与健身
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [API-FOOTBALL](https://www.api-football.com/documentation-v3) | 获取足球联赛和杯赛信息 | `apiKey` | Yes | Yes |
 | [ApiMedic](https://apimedic.com/) | ApiMedic提供主要面向患者的医疗症状检查API | `apiKey` | Yes | Unknown |
@@ -465,7 +468,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 社交
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |---|---|---|---|---|
 | [4chan](https://github.com/4chan/4chan-API) | 简单的基于图像的公告板，专注于各种话题 | No | Yes | Yes |
 | [Ayrshare](https://www.ayrshare.com) | 社交媒体API，用于发布、获取分析和管理多个用户的社交媒体账户 | `apiKey` | Yes | Yes |
@@ -473,7 +476,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 | [Blogger](https://developers.google.com/blogger/) | Blogger API允许客户端应用程序查看和更新Blogger内容 | `OAuth` | Yes | Unknown |
 | [Cisco Spark](https://developer.ciscospark.com) | 团队协作软件 | `OAuth` | Yes | Unknown |
 | [Dangerous Discord Database](https://discord.riverside.rocks/docs/index.php) | 恶意Discord账户数据库 | `apiKey` | Yes | Unknown |
-| [Discord](https://discord.com/developers/docs/intro) | 为Discord创建机器人，将Discord集成到外部平台 | `OAuth` | Yes | Unknown | | |
+| [Discord](https://discord.com/developers/docs/intro) | 为Discord创建机器人，将Discord集成到外部平台 | `OAuth` | Yes | Unknown |
 | [Disqus](https://disqus.com/api/docs/auth/) | 与Disqus数据通信 | `OAuth` | Yes | Unknown |
 | [Doge-Meme](https://api.doge-meme.lol/docs) | 来自r/dogecoin的热门 meme 帖子，包含'Meme'标签 | No | Yes | Yes |
 | [Facebook](https://developers.facebook.com/) | Facebook登录、在FB上分享、社交插件、分析等 | `OAuth` | Yes | Unknown |
@@ -514,7 +517,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 购物
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Best Buy](https://bestbuyapis.github.io/api-documentation/#overview) | 产品、购买选项、分类、推荐、商店和商务 | `apiKey` | Yes | Unknown |
 | [Digi-Key](https://www.digikey.com/en/resources/api-solutions) | 检索电子元件的价格和库存以及下订单 | `OAuth` | Yes | Unknown |
@@ -535,7 +538,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 安全
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Application Environment Verification](https://github.com/fingerprintjs/aev) | Android库和API，用于验证用户设备的安全性，检测root设备和其他风险 | `apiKey` | Yes | Yes |
 | [BinaryEdge](https://docs.binaryedge.io/api-v2.html) | 提供对BinaryEdge 40fy扫描平台的访问 | `apiKey` | Yes | Yes |
@@ -580,7 +583,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 科学与数学
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [arcsecond.io](https://api.arcsecond.io/) | 多个天文学数据源 | No | Yes | Unknown |
 | [arXiv](https://arxiv.org/help/api/user-manual) | 策划的研究共享平台：物理、数学、定量金融和经济学 | No | Yes | Unknown |
@@ -620,7 +623,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 编程
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Codeforces](https://codeforces.com/apiHelp) | 获取Codeforces数据 | `apiKey` | Yes | Unknown |
 | [Hackerearth](https://www.hackerearth.com/docs/wiki/developers/v4/) | 用于编译和运行多种语言的代码 | `apiKey` | Yes | Unknown |
@@ -632,10 +635,10 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 摄影
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [apilayer screenshotlayer](https://screenshotlayer.com) | URL转图片 | No | Yes | Unknown |
-| [APITemplate.io](https://apitemplate.io) | 通过简单API从模板动态生成图片和PDF | `apiKey` | Yes | Yes |    
+| [APITemplate.io](https://apitemplate.io) | 通过简单API从模板动态生成图片和PDF | `apiKey` | Yes | Yes |
 | [Bruzu](https://docs.bruzu.com) | 使用查询字符串生成图片 | `apiKey` | Yes | Yes |
 | [CheetahO](https://cheetaho.com/docs/getting-started/) | 照片优化和调整大小 | `apiKey` | Yes | Unknown |
 | [Dagpi](https://dagpi.xyz) | 图片处理和操作 | `apiKey` | Yes | Unknown |
@@ -668,7 +671,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 电话
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Phone Validation](https://www.abstractapi.com/phone-validation-api) | 全球电话号码验证 | `apiKey` | Yes | Yes |
 | [apilayer numverify](https://numverify.com) | 电话号码验证 | `apiKey` | Yes | Unknown |
@@ -680,7 +683,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 人格
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Advice Slip](http://api.adviceslip.com/) | 生成随机建议 | No | Yes | Unknown |
 | [Biriyani As A Service](https://biriyani.anoram.com/) | 印度炒饭图片占位符 | No | Yes | No |
@@ -710,7 +713,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 专利
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [EPO](https://developers.epo.org/) | 欧洲专利搜索系统API | `OAuth` | Yes | Unknown |
 | [PatentsView ](https://patentsview.org/apis/purpose) | API旨在探索和可视化美国创新领域的趋势/模式 | No | Yes | Unknown |
@@ -721,7 +724,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 开源项目
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Countly](https://api.count.ly/reference) | Countly网络分析 | No | No | Unknown |
 | [Creative Commons Catalog](https://api.creativecommons.engineering/) | 搜索开放许可和公共领域的作品 | `OAuth` | Yes | Yes |
@@ -737,7 +740,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 开放数据
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [18F](http://18f.github.io/API-All-the-X/) | 非官方的美国联邦政府API开发 | No | No | Unknown |
 | [API Setu](https://www.apisetu.gov.in/) | 一个印度政府平台，提供大量用于KYC、商业、教育和就业的API | No | Yes | Yes |
@@ -779,7 +782,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 新闻
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [apilayer mediastack](https://mediastack.com/) | 免费、简单的实时新闻和博客文章REST API | `apiKey` | Yes | Unknown |
 | [Associated Press](https://developer.ap.org/) | 搜索美联社的新闻和元数据 | `apiKey` | Yes | Unknown |
@@ -805,7 +808,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 音乐
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [7digital](https://docs.7digital.com/reference) | 7digital音乐商店API | `OAuth` | Yes | Unknown |
 | [AI Mastering](https://aimastering.com/api_docs/) | 自动音乐母带处理 | `apiKey` | Yes | Yes |
@@ -845,7 +848,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 机器学习
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [AI For Thai](https://aiforthai.in.th/index.php) | 免费的多种泰国AI API | `apiKey` | Yes | Yes |
 | [Clarifai](https://docs.clarifai.com/api-guide/api-overview) | 计算机视觉 | `OAuth` | Yes | Unknown |
@@ -853,7 +856,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 | [Deepcode](https://www.deepcode.ai) | 代码审查AI | No | Yes | Unknown |
 | [Dialogflow](https://cloud.google.com/dialogflow/docs/) | 自然语言处理 | `apiKey` | Yes | Unknown |
 | [EXUDE-API](http://uttesh.com/exude-api/) | 用于过滤文本数据中停用词和词干的主要方法 | No | Yes | Yes |
-| [Hirak FaceAPI](https://faceapi.hirak.site/) | 人脸检测、人脸识别（带年龄/性别估计）、准确、无配额限制 | `apiKey` | Yes | Unknown |    
+| [Hirak FaceAPI](https://faceapi.hirak.site/) | 人脸检测、人脸识别（带年龄/性别估计）、准确、无配额限制 | `apiKey` | Yes | Unknown |
 | [Imagga](https://imagga.com/) | 图像识别解决方案，如标记、视觉搜索、NSFW审核 | `apiKey` | Yes | Unknown |
 | [Inferdo](https://rapidapi.com/user/inferdo) | 人脸检测、图像标注、NSFW分类等计算机视觉服务 | `apiKey` | Yes | Unknown |
 | [IPS Online](https://docs.identity.ps/docs) | 人脸和车牌匿名化 | `apiKey` | Yes | Unknown |
@@ -875,7 +878,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 工作
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Adzuna](https://developer.adzuna.com/overview) | 招聘板聚合器 | `apiKey` | Yes | Unknown |
 | [Arbeitnow](https://documenter.getpostman.com/view/18545278/UVJbJdKh) | 欧洲/远程招聘板聚合器API | No | Yes | Yes |
@@ -899,7 +902,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 健康
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [CMS.gov](https://data.cms.gov/provider-data/) | 访问CMS - medicare.gov的数据 | `apiKey` | Yes | Unknown |
 | [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | 最新Covid-19数据的HTTP API | No | Yes | Unknown |
@@ -937,7 +940,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 政府
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my/) | 马来西亚央行开放数据 | No | Yes | Unknown |
 | [BCLaws](https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html) | 访问不列颠哥伦比亚省的法律 | No | No | Unknown |
@@ -1030,7 +1033,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 地理编码
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [IP Geolocation](https://www.abstractapi.com/ip-geolocation-api) | 通过IP地址定位网站访问者 | `apiKey` | Yes | Yes |
 | [Actinia Grass GIS](https://actinia.mundialis.de/api_docs/) | Actinia是一个使用GRASS GIS的开源地理数据REST API | `apiKey` | Yes | Unknown |
@@ -1087,7 +1090,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 | [LocationIQ](https://locationiq.org/docs/) | 提供正向/反向地理编码和批量地理编码 | `apiKey` | Yes | Yes |
 | [Longdo Map](https://map.longdo.com/docs/) | 带有详细地点和信息门户的交互式地图 | `apiKey` | Yes | Yes |
 | [Mapbox](https://docs.mapbox.com/) | 创建/定制精美的数字地图 | `apiKey` | Yes | Unknown |
-| [MapQuest](https://developer.mapquest.com/) | 访问映射世界的工具和资源 | `apiKey` | Yes | No | Yes
+| [MapQuest](https://developer.mapquest.com/) | 访问映射世界的工具和资源 | `apiKey` | Yes | No | Yes |
 | [Mexico](https://github.com/IcaliaLabs/sepomex) | 墨西哥RESTful邮政编码API | No | Yes | Unknown |
 | [Nominatim](https://nominatim.org/release-docs/latest/api/Overview/) | 提供全球正向/反向地理编码 | No | Yes | Yes |
 | [One Map, Singapore](https://www.onemap.gov.sg/docs/) | 新加坡土地管理局用于新加坡地址的REST API服务 | `apiKey` | Yes | Unknown |
@@ -1124,7 +1127,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 游戏与漫画
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Age of Empires II](https://age-of-empires-2-api.herokuapp.com) | 获取关于帝国时代II资源的信息 | No | Yes | No |
 | [AmiiboAPI](https://amiiboapi.com/) | 任天堂Amiibo信息 | No | Yes | Yes |
@@ -1161,7 +1164,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 | [Fun Facts](https://asli-fun-fact-api.herokuapp.com/) | 随机有趣事实 | No | Yes | Yes |
 | [FunTranslations](https://api.funtranslations.com/) | 将文本翻译成有趣的语言 | No | Yes | Yes |
 | [GamerPower](https://www.gamerpower.com/api-read) | 游戏赠品追踪器 | No | Yes | Yes |
-| [GDBrowser](https://gdbrowser.com/api) | 使用Geometry Dash服务器的简单方法 | No | Yes | Unknown |    
+| [GDBrowser](https://gdbrowser.com/api) | 使用Geometry Dash服务器的简单方法 | No | Yes | Unknown |
 | [Geek-Jokes](https://github.com/sameerkumar18/geek-joke-api) | 获取随机的极客/编程相关笑话，用于各种应用程序 | No | Yes | Yes |
 | [Genshin Impact](https://genshin.dev) | 原神游戏数据 | No | Yes | Yes |
 | [Giant Bomb](https://www.giantbomb.com/api/documentation) | 电子游戏 | `apiKey` | Yes | Unknown |
@@ -1183,7 +1186,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 | [Magic The Gathering](http://magicthegathering.io/) | 万智牌游戏信息 | No | No | Unknown |
 | [Mario Kart Tour](https://mario-kart-tour-api.herokuapp.com/) | 车手、卡丁车、滑翔机和赛道的API | `OAuth` | Yes | Unknown |
 | [Marvel](https://developer.marvel.com) | 漫威漫画 | `apiKey` | Yes | Unknown |
-| [Minecraft Server Status](https://api.mcsrvstat.us) | 获取Minecraft服务器信息的API | No | Yes | No |    
+| [Minecraft Server Status](https://api.mcsrvstat.us) | 获取Minecraft服务器信息的API | No | Yes | No |
 | [MMO Games](https://www.mmobomb.com/api) | MMO游戏数据库、新闻和赠品 | No | Yes | No |
 | [mod.io](https://docs.mod.io) | 跨平台Mod API | `apiKey` | Yes | Unknown |
 | [Mojang](https://wiki.vg/Mojang_API) | Mojang / Minecraft API | `apiKey` | Yes | Unknown |
@@ -1227,7 +1230,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 餐饮
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [BaconMockup](https://baconmockup.com/) | 可调整大小的培根占位符图片 | No | Yes | Yes |
 | [Chomp](https://chompthis.com/api/) | 关于各种杂货产品和食品的数据 | `apiKey` | Yes | Unknown |
@@ -1258,59 +1261,59 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 财务
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
-|---|:---|:---|:---|:---|:---|
-| [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | 验证增值税号码并计算增值税税率 | `apiKey` | Yes | Yes | |
-| [Aletheia](https://aletheiaapi.com/) | 内幕交易数据、财报电话分析、财务报表等 | `apiKey` | Yes | Yes | |
-| [Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/) | 所有美国股票和ETF的实时和历史市场数据 | `apiKey` | Yes | Yes | |
-| [Alpha Vantage](https://www.alphavantage.co/) | 实时和历史股票数据 | `apiKey` | Yes | Unknown | |
-| [apilayer marketstack](https://marketstack.com/) | 实时、日内和历史市场数据API | `apiKey` | Yes | Unknown | |
-| [Banco do Brasil](https://developers.bb.com.br/home) | 所有巴西银行金融交易API | `OAuth` | Yes | Yes | |
-| [Bank Data API](https://apilayer.com/marketplace/bank_data-api) | 全球即时IBAN和SWIFT号码验证 | `apiKey` | Yes | Unknown | |
-| [Billplz](https://www.billplz.com/api) | 支付平台 | `apiKey` | Yes | Unknown | |
-| [Binlist](https://binlist.net/) | 公开访问IIN/BIN信息数据库 | No | Yes | Unknown | |
-| [Boleto.Cloud](https://boleto.cloud/) | 在巴西生成boletos的API | `apiKey` | Yes | Unknown | |
-| [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | 所有花旗集团账户和报表数据API | `apiKey` | Yes | Unknown | |
-| [Econdb](https://www.econdb.com/api/) | 全球宏观经济数据 | No | Yes | Yes | |
-| [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | 美国财政部数据 | No | Yes | Unknown | |
-| [Finage](https://finage.co.uk) | Finage是股票、货币、加密货币、指数和ETF的实时和历史数据提供商 | `apiKey` | Yes | Unknown | |
-| [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | 实时和历史股票数据 | `apiKey` | Yes | Unknown | |
-| [Finnhub](https://finnhub.io/docs/api) | 股票、货币和加密货币的实时RESTful API和Websocket | `apiKey` | Yes | Unknown | |
-| [FRED](https://fred.stlouisfed.org/docs/api/fred/) | 来自圣路易斯联邦储备银行的经济数据 | `apiKey` | Yes | Yes | |
-| [Front Accounting APIs](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | Front会计是一款面向小型企业的多语言多货币软件 | `OAuth` | Yes | Yes | |
-| [Hotstoks](https://hotstoks.com?utm_source=public-apis) | 由SQL驱动的股票市场数据 | `apiKey` | Yes | Yes | |
-| [IEX Cloud](https://iexcloud.io/docs/api/) | 实时和历史股票和市场数据 | `apiKey` | Yes | Yes | |
-| [IG](https://labs.ig.com/gettingstarted) | 差价合约和点差投注市场数据 | `apiKey` | Yes | Unknown | |
-| [Indian Mutual Fund](https://www.mfapi.in/) | 获取印度共同基金数据的完整历史 | No | Yes | Unknown | |
-| [Intrinio](https://intrinio.com/) | 广泛的金融数据源选择 | `apiKey` | Yes | Unknown | |
-| [Klarna](https://docs.klarna.com/klarna-payments/api/payments-api/) | Klarna支付和购物服务 | `apiKey` | Yes | Unknown | |
-| [MercadoPago](https://www.mercadopago.com.br/developers/es/reference) | Mercado Pago API参考 - 开发您的集成所需的所有信息 | `apiKey` | Yes | Unknown | |
-| [Mono](https://mono.co/) | 连接用户的银行账户并访问非洲的交易数据 | `apiKey` | Yes | Unknown | |
-| [Moov](https://docs.moov.io/api/) | Moov API使平台能够简单发送、接收和存储资金 | `apiKey` | Yes | Unknown | |
-| [Nordigen](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/) | 使用官方银行API连接银行账户并获取原始交易数据 | `apiKey` | Yes | Unknown | |
-| [OpenFIGI](https://www.openfigi.com/api) | 来自彭博LP的股票、指数、期货、期权符号 | `apiKey` | Yes | Yes | |
-| [Plaid](https://www.plaid.com/docs) | 连接用户的银行账户并访问交易数据	 | `apiKey` | YES | |  |
-| [Polygon](https://polygon.io/) | 历史股票市场数据 | `apiKey` | Yes | Unknown | |
-| [Portfolio Optimizer](https://portfoliooptimizer.io/) | 投资组合分析和优化 | No | Yes | Yes | |
-| [Razorpay IFSC](https://razorpay.com/docs/) | 印度金融系统代码（银行分行代码） | No | Yes | Unknown | |
-| [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | 访问实时股票数据的Websocket API | `apiKey` | No | Unknown | |
-| [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | 访问美国上市公司年报的API | No | Yes | Yes | |
-| [SmartAPI](https://smartapi.angelbroking.com/) | 获得<SmartAPI>的访问权限并创建端到端经纪服务 | `apiKey` | Yes | Unknown | |
-| [StockData](https://www.StockData.org) | 实时、日内和历史市场数据、新闻和情绪API | `apiKey` | Yes | Yes | |
-| [Styvio](https://www.Styvio.com) | 实时和历史股票数据以及当前股票情绪 | `apiKey` | Yes | Unknown | |
-| [Tax Data API](https://apilayer.com/marketplace/tax_data-api) | 全球即时增值税号码和税务验证 | `apiKey` | Yes | Unkown | |
-| [Tradier](https://developer.tradier.com) | 美国股票/期权市场数据（延迟、日内、历史） | `OAuth` | Yes | Yes | |
-| [Twelve Data](https://twelvedata.com/) | 股票市场数据（实时和历史） | `apiKey` | Yes | Unknown | |
-| [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets股票评论情绪分析 | No | Yes | Unknown | |
-| [Yahoo Finance](https://www.yahoofinanceapi.com/) | 实时低延迟的Yahoo Finance API，用于股票市场、加密货币和货币兑换 | `apiKey` | Yes | Yes | |
-| [YNAB](https://api.youneedabudget.com/) | 预算和规划 | `OAuth` | Yes | Yes | |
-| [Zoho Books](https://www.zoho.com/books/api/v3/) | 在线会计软件，专为您的业务构建 | `OAuth` | Yes | Unknown | |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
+|:---|:---|:---|:---|:---|
+| [VAT Validation](https://www.abstractapi.com/vat-validation-rates-api) | 验证增值税号码并计算增值税税率 | `apiKey` | Yes | Yes |
+| [Aletheia](https://aletheiaapi.com/) | 内幕交易数据、财报电话分析、财务报表等 | `apiKey` | Yes | Yes |
+| [Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/) | 所有美国股票和ETF的实时和历史市场数据 | `apiKey` | Yes | Yes |
+| [Alpha Vantage](https://www.alphavantage.co/) | 实时和历史股票数据 | `apiKey` | Yes | Unknown |
+| [apilayer marketstack](https://marketstack.com/) | 实时、日内和历史市场数据API | `apiKey` | Yes | Unknown |
+| [Banco do Brasil](https://developers.bb.com.br/home) | 所有巴西银行金融交易API | `OAuth` | Yes | Yes |
+| [Bank Data API](https://apilayer.com/marketplace/bank_data-api) | 全球即时IBAN和SWIFT号码验证 | `apiKey` | Yes | Unknown |
+| [Billplz](https://www.billplz.com/api) | 支付平台 | `apiKey` | Yes | Unknown |
+| [Binlist](https://binlist.net/) | 公开访问IIN/BIN信息数据库 | No | Yes | Unknown |
+| [Boleto.Cloud](https://boleto.cloud/) | 在巴西生成boletos的API | `apiKey` | Yes | Unknown |
+| [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | 所有花旗集团账户和报表数据API | `apiKey` | Yes | Unknown |
+| [Econdb](https://www.econdb.com/api/) | 全球宏观经济数据 | No | Yes | Yes |
+| [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | 美国财政部数据 | No | Yes | Unknown |
+| [Finage](https://finage.co.uk) | Finage是股票、货币、加密货币、指数和ETF的实时和历史数据提供商 | `apiKey` | Yes | Unknown |
+| [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | 实时和历史股票数据 | `apiKey` | Yes | Unknown |
+| [Finnhub](https://finnhub.io/docs/api) | 股票、货币和加密货币的实时RESTful API和Websocket | `apiKey` | Yes | Unknown |
+| [FRED](https://fred.stlouisfed.org/docs/api/fred/) | 来自圣路易斯联邦储备银行的经济数据 | `apiKey` | Yes | Yes |
+| [Front Accounting APIs](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | Front会计是一款面向小型企业的多语言多货币软件 | `OAuth` | Yes | Yes |
+| [Hotstoks](https://hotstoks.com?utm_source=public-apis) | 由SQL驱动的股票市场数据 | `apiKey` | Yes | Yes |
+| [IEX Cloud](https://iexcloud.io/docs/api/) | 实时和历史股票和市场数据 | `apiKey` | Yes | Yes |
+| [IG](https://labs.ig.com/gettingstarted) | 差价合约和点差投注市场数据 | `apiKey` | Yes | Unknown |
+| [Indian Mutual Fund](https://www.mfapi.in/) | 获取印度共同基金数据的完整历史 | No | Yes | Unknown |
+| [Intrinio](https://intrinio.com/) | 广泛的金融数据源选择 | `apiKey` | Yes | Unknown |
+| [Klarna](https://docs.klarna.com/klarna-payments/api/payments-api/) | Klarna支付和购物服务 | `apiKey` | Yes | Unknown |
+| [MercadoPago](https://www.mercadopago.com.br/developers/es/reference) | Mercado Pago API参考 - 开发您的集成所需的所有信息 | `apiKey` | Yes | Unknown |
+| [Mono](https://mono.co/) | 连接用户的银行账户并访问非洲的交易数据 | `apiKey` | Yes | Unknown |
+| [Moov](https://docs.moov.io/api/) | Moov API使平台能够简单发送、接收和存储资金 | `apiKey` | Yes | Unknown |
+| [Nordigen](https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/) | 使用官方银行API连接银行账户并获取原始交易数据 | `apiKey` | Yes | Unknown |
+| [OpenFIGI](https://www.openfigi.com/api) | 来自彭博LP的股票、指数、期货、期权符号 | `apiKey` | Yes | Yes |
+| [Plaid](https://www.plaid.com/docs) | 连接用户的银行账户并访问交易数据 | `apiKey` | YES | Unknown |
+| [Polygon](https://polygon.io/) | 历史股票市场数据 | `apiKey` | Yes | Unknown |
+| [Portfolio Optimizer](https://portfoliooptimizer.io/) | 投资组合分析和优化 | No | Yes | Yes |
+| [Razorpay IFSC](https://razorpay.com/docs/) | 印度金融系统代码（银行分行代码） | No | Yes | Unknown |
+| [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | 访问实时股票数据的Websocket API | `apiKey` | No | Unknown |
+| [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | 访问美国上市公司年报的API | No | Yes | Yes |
+| [SmartAPI](https://smartapi.angelbroking.com/) | 获得<SmartAPI>的访问权限并创建端到端经纪服务 | `apiKey` | Yes | Unknown |
+| [StockData](https://www.StockData.org) | 实时、日内和历史市场数据、新闻和情绪API | `apiKey` | Yes | Yes |
+| [Styvio](https://www.Styvio.com) | 实时和历史股票数据以及当前股票情绪 | `apiKey` | Yes | Unknown |
+| [Tax Data API](https://apilayer.com/marketplace/tax_data-api) | 全球即时增值税号码和税务验证 | `apiKey` | Yes | Unkown |
+| [Tradier](https://developer.tradier.com) | 美国股票/期权市场数据（延迟、日内、历史） | `OAuth` | Yes | Yes |
+| [Twelve Data](https://twelvedata.com/) | 股票市场数据（实时和历史） | `apiKey` | Yes | Unknown |
+| [WallstreetBets](https://dashboard.nbshare.io/apps/reddit/api/) | WallstreetBets股票评论情绪分析 | No | Yes | Unknown |
+| [Yahoo Finance](https://www.yahoofinanceapi.com/) | 实时低延迟的Yahoo Finance API，用于股票市场、加密货币和货币兑换 | `apiKey` | Yes | Yes |
+| [YNAB](https://api.youneedabudget.com/) | 预算和规划 | `OAuth` | Yes | Yes |
+| [Zoho Books](https://www.zoho.com/books/api/v3/) | 在线会计软件，专为您的业务构建 | `OAuth` | Yes | Unknown |
 
 **[⬆ 返回目录](#index)**
 
 
 ### 活动
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Eventbrite](https://www.eventbrite.com/platform/api/) | 查找活动 | `OAuth` | Yes | Unknown |
 | [SeatGeek](https://platform.seatgeek.com/) | 搜索活动、场馆和表演者 | `apiKey` | Yes | Unknown |
@@ -1320,7 +1323,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 环境
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [BreezoMeter Pollen](https://docs.breezometer.com/api-documentation/pollen-api/v2/) | 特定位置的每日花粉条件预报数据 | `apiKey` | Yes | Unknown |
 | [Carbon Interface](https://docs.carboninterface.com/) | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | `apiKey` | Yes | Yes |
@@ -1344,7 +1347,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 娱乐
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [chucknorris.io](https://api.chucknorris.io) | 手工精选Chuck Norris笑话的JSON API | No | Yes | Unknown |
 | [Corporate Buzz Words](https://github.com/sameerkumar18/corporate-bs-generator-api) | 企业流行语的REST API | No | Yes | Yes |
@@ -1361,7 +1364,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 电子邮件
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [apilayer mailboxlayer](https://mailboxlayer.com) | 电子邮件地址验证 | `apiKey` | Yes | Unknown |
 | [Email Validation](https://www.abstractapi.com/email-verification-validation-api) | 验证电子邮件地址的可送达性和垃圾邮件 | `apiKey` | Yes | Yes |
@@ -1385,7 +1388,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 文档与生产力
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Airtable](https://airtable.com/api) | 与Airtable集成 | `apiKey` | Yes | Unknown |
 | [Api2Convert](https://www.api2convert.com/) | 在线文件转换API | `apiKey` | Yes | Unknown |
@@ -1420,7 +1423,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 词典
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Chinese Character Web](http://ccdb.hemiola.com/) | 中文字符定义和发音 | No | No | No |
 | [Chinese Text Project](https://ctext.org/tools/api) | 用于现代前中文文本的在线开放获取数字图书馆 | No | Yes | Unknown |
@@ -1440,7 +1443,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 开发
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [24 Pull Requests](https://24pullrequests.com/api) | 促进12月开源协作的项目 | No | Yes | Yes |
 | [Screenshot](https://www.abstractapi.com/website-screenshot-api) | 以编程方式对任何网站进行截图 | `apiKey` | Yes | Yes |
@@ -1568,21 +1571,21 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 数据验证
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
-|---|:---|:---|:---|:---|:---|
-| [Lob.com](https://lob.com/) | 美国地址验证 | `apiKey` | Yes | Unknown | |
-| [Postman Echo](https://www.postman-echo.com) | 测试API服务器以接收和返回HTTP方法的值 | No | Yes | Unknown | |
-| [PurgoMalum](http://www.purgomalum.com) | 针对亵渎和淫秽的内容验证器 | No | No | Unknown | |
-| [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes | |
-| [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes | |
-| [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes | |
-| [vatlayer](https://vatlayer.com/documentation) | VAT number validation | `apiKey` | Yes | Unknown | |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
+|:---|:---|:---|:---|:---|
+| [Lob.com](https://lob.com/) | 美国地址验证 | `apiKey` | Yes | Unknown |
+| [Postman Echo](https://www.postman-echo.com) | 测试API服务器以接收和返回HTTP方法的值 | No | Yes | Unknown |
+| [PurgoMalum](http://www.purgomalum.com) | 针对亵渎和淫秽的内容验证器 | No | No | Unknown |
+| [US Autocomplete](https://www.smarty.com/docs/cloud/us-autocomplete-pro-api) | Enter address data quickly with real-time address suggestions | `apiKey` | Yes | Yes |
+| [US Extract](https://www.smarty.com/products/apis/us-extract-api) | Extract postal addresses from any text including emails | `apiKey` | Yes | Yes |
+| [US Street Address](https://www.smarty.com/docs/cloud/us-street-api) | Validate and append data for any US postal address | `apiKey` | Yes | Yes |
+| [vatlayer](https://vatlayer.com/documentation) | VAT number validation | `apiKey` | Yes | Unknown |
 
 **[⬆ 返回目录](#index)**
 
 
 ### 货币兑换
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [1Forge](https://1forge.com/forex-data-api/api-documentation) | 外汇货币市场数据 | `apiKey` | Yes | Unknown |
 | [Amdoren](https://www.amdoren.com/currency-api/) | 拥有150多种货币的免费货币API | `apiKey` | Yes | Unknown |
@@ -1606,7 +1609,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 加密货币
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [0x](https://0x.org/api) | 用于查询各种流动性池中代币和池统计数据的API | No | Yes | Yes |
 | [1inch](https://1inch.io/api/) | 用于查询去中心化交易所的API | No | Yes | Unknown |
@@ -1677,7 +1680,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 持续集成
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Azure DevOps Health](https://docs.microsoft.com/en-us/rest/api/resourcehealth) | 资源健康帮助您诊断和支持当Azure问题影响您的资源时 | `apiKey` | No | No |
 | [Bitrise](https://api-docs.bitrise.io/) | 构建工具和流程集成，以创建高效的开发管道 | `apiKey` | Yes | Unknown |
@@ -1690,33 +1693,33 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 云存储与文件共享
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
-|---|:---|:---|:---|:---|:---|
-| [AnonFiles](https://anonfiles.com/docs/api) | 匿名上传和分享您的文件 | No | Yes | Unknown | |
-| [BayFiles](https://bayfiles.com/docs/api) | 上传和分享您的文件 | No | Yes | Unknown | |
-| [Box](https://developer.box.com/) | 文件共享和存储 | `OAuth` | Yes | Unknown | |
-| [ddownload](https://ddownload.com/api) | 文件共享和存储 | `apiKey` | Yes | Unknown | |
-| [Dropbox](https://www.dropbox.com/developers) | 文件共享和存储 | `OAuth` | Yes | Unknown | |
-| [File.io](https://www.file.io) | 超级简单的文件共享，方便、匿名和安全 | No | Yes | Unknown | |
-| [Filestack](https://www.filestack.com) | Filestack文件上传器和文件上传API | `apiKey` | Yes | Unknown |    |
-| [GoFile](https://gofile.io/api) | 免费无限大小文件上传 | `apiKey` | Yes | Unknown | |
-| [Google Drive](https://developers.google.com/drive/) | 文件共享和存储 | `OAuth` | Yes | Unknown | |
-| [Gyazo](https://gyazo.com/api/docs) | 立即保存和分享屏幕截图 | `apiKey` | Yes | Unknown | |
-| [Imgbb](https://api.imgbb.com/) | 简单快捷的私人图像共享 | `apiKey` | Yes | Unknown | |
-| [OneDrive](https://developer.microsoft.com/onedrive) | 文件共享和存储 | `OAuth` | Yes | Unknown | |
-| [Pantry](https://getpantry.cloud/) | 小型项目的免费JSON存储 | No | Yes | Yes | |
-| [Pastebin](https://pastebin.com/doc_api) | 纯文本存储 | `apiKey` | Yes | Unknown | |
-| [Pinata](https://docs.pinata.cloud/) | IPFS固定服务API | `apiKey` | Yes | Unknown | |
-| [Quip](https://quip.com/dev/automation/documentation) | 群组的文件共享和存储 | `apiKey` | Yes | Yes | |
-| [Storj](https://docs.storj.io/dcs/) | 去中心化开源云存储 | `apiKey` | Yes | Unknown | |
-| [The Null Pointer](https://0x0.st) | 无废话的文件托管和URL缩短服务 | No | Yes | Unknown | |
-| [Web3 Storage](https://web3.storage/) | 免费文件共享和存储，1TB空间 | `apiKey` | Yes | Yes | |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
+|:---|:---|:---|:---|:---|
+| [AnonFiles](https://anonfiles.com/docs/api) | 匿名上传和分享您的文件 | No | Yes | Unknown |
+| [BayFiles](https://bayfiles.com/docs/api) | 上传和分享您的文件 | No | Yes | Unknown |
+| [Box](https://developer.box.com/) | 文件共享和存储 | `OAuth` | Yes | Unknown |
+| [ddownload](https://ddownload.com/api) | 文件共享和存储 | `apiKey` | Yes | Unknown |
+| [Dropbox](https://www.dropbox.com/developers) | 文件共享和存储 | `OAuth` | Yes | Unknown |
+| [File.io](https://www.file.io) | 超级简单的文件共享，方便、匿名和安全 | No | Yes | Unknown |
+| [Filestack](https://www.filestack.com) | Filestack文件上传器和文件上传API | `apiKey` | Yes | Unknown |
+| [GoFile](https://gofile.io/api) | 免费无限大小文件上传 | `apiKey` | Yes | Unknown |
+| [Google Drive](https://developers.google.com/drive/) | 文件共享和存储 | `OAuth` | Yes | Unknown |
+| [Gyazo](https://gyazo.com/api/docs) | 立即保存和分享屏幕截图 | `apiKey` | Yes | Unknown |
+| [Imgbb](https://api.imgbb.com/) | 简单快捷的私人图像共享 | `apiKey` | Yes | Unknown |
+| [OneDrive](https://developer.microsoft.com/onedrive) | 文件共享和存储 | `OAuth` | Yes | Unknown |
+| [Pantry](https://getpantry.cloud/) | 小型项目的免费JSON存储 | No | Yes | Yes |
+| [Pastebin](https://pastebin.com/doc_api) | 纯文本存储 | `apiKey` | Yes | Unknown |
+| [Pinata](https://docs.pinata.cloud/) | IPFS固定服务API | `apiKey` | Yes | Unknown |
+| [Quip](https://quip.com/dev/automation/documentation) | 群组的文件共享和存储 | `apiKey` | Yes | Yes |
+| [Storj](https://docs.storj.io/dcs/) | 去中心化开源云存储 | `apiKey` | Yes | Unknown |
+| [The Null Pointer](https://0x0.st) | 无废话的文件托管和URL缩短服务 | No | Yes | Unknown |
+| [Web3 Storage](https://web3.storage/) | 免费文件共享和存储，1TB空间 | `apiKey` | Yes | Yes |
 
 **[⬆ 返回目录](#index)**
 
 
 ### 日历
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Public Holidays](https://www.abstractapi.com/holidays-api) | 通过API获取国家、地区和宗教节假日数据 | `apiKey` | Yes | Yes |
 | [Calendarific](https://calendarific.com/) | 全球节假日 | `apiKey` | Yes | Unknown |
@@ -1739,10 +1742,10 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 商业
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
-|---|:---|:---|:---|:---|:---|
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
+|:---|:---|:---|:---|:---|
 | [Apache Superset](https://superset.apache.org/docs/api) | 管理Superset上的BI仪表板和数据源的API | `apiKey` | Yes | Yes |
-| [Charity Search](http://charityapi.orghunter.com/) | 非营利慈善数据 | `apiKey` | No | Unknown 
+| [Charity Search](http://charityapi.orghunter.com/) | 非营利慈善数据 | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | 搜索公司标志并将其嵌入您的项目中 | `apiKey` | Yes | Unknown |
 | [Domainsdb.info](https://domainsdb.info/) | 注册域名搜索 | No | Yes | No |
 | [Freelancer](https://developers.freelancer.com) | 雇佣自由职业者完成工作 | `OAuth` | Yes | Unknown |
@@ -1769,7 +1772,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 图书
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [A Bíblia Digital](https://www.abibliadigital.com.br/en) | 无需担心管理圣经的多个版本 | `apiKey` | Yes | No |
 | [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | 开源Shrimad Bhagavad Gita API，包括梵文/英文/印地语21+作者翻译 | `apiKey` | Yes | Yes |
@@ -1799,7 +1802,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 区块链
-| API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+| API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |---|:---|:---|:---|:---|
 | [Bitquery](https://graphql.bitquery.io/ide) | 链上GraphQL API和DEX API | `apiKey` | Yes | Yes |
 | [Chainlink](https://chain.link/developer-resources) | 使用Chainlink构建混合智能合约 | No | Yes | Unknown |
@@ -1817,7 +1820,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 身份验证与授权
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Auth0](https://auth0.com) | 易于实施、适应性强的认证和授权平台 | `apiKey` | Yes | Yes |
 | [GetOTP](https://otp.dev/en/docs/) | 快速实现OTP流程 | `apiKey` | Yes | No |
@@ -1831,7 +1834,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 艺术与设计
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Améthyste](https://api.amethyste.moe/) | 为Discord用户生成图片 | `apiKey` | Yes | Unknown |
 | [Art Institute of Chicago](https://api.artic.edu/docs/) | 艺术 | No | Yes | Yes |
@@ -1858,7 +1861,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 
 
 ### 反恶意软件
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [AbuseIPDB](https://docs.abuseipdb.com/) | IP/域名/URL 信誉评估 | `apiKey` | Yes | Unknown |
 | [AlienVault Open Threat Exchange (OTX)](https://otx.alienvault.com/api) | IP/域名/URL 信誉评估 | `apiKey` | Yes | Unknown |
@@ -1874,13 +1877,13 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
 | [URLhaus](https://urlhaus-api.abuse.ch/) | 批量查询和下载恶意软件样本 | No | Yes | Yes |
 | [URLScan.io](https://urlscan.io/about-api/) | 扫描和分析URL | `apiKey` | Yes | Unknown |
 | [VirusTotal](https://www.virustotal.com/en/documentation/public-api/) | VirusTotal 文件/URL 分析 | `apiKey` | Yes | Unknown |
-| [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/域名/URL 信誉评估 | `apiKey` | Yes | Unknown | 
+| [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | IP/域名/URL 信誉评估 | `apiKey` | Yes | Unknown |
 
 **[⬆ 返回目录](#index)**
 
 
 ### 动漫
-API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS |
+API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [AniAPI](https://aniapi.com/docs/) | 动漫发现、流媒体和与跟踪器同步 | `OAuth` | Yes | Yes |
 | [AniDB](https://wiki.anidb.net/HTTP_API_Definition) | 动漫数据库 | `apiKey` | No | Unknown |
@@ -1910,7 +1913,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [AdoptAPet](https://www.adoptapet.com/public/apis/pet_list.html) | 帮助领养宠物的资源 | `apiKey` | Yes | Yes |
 | [Axolotl](https://theaxolotlapi.netlify.app/) | 蝾螈图片和趣闻集合 | No | Yes | No |
-| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | 每日猫咪趣闻 | No | Yes | No | |
+| [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | 每日猫咪趣闻 | No | Yes | No |
 | [Cataas](https://cataas.com/) | 猫咪即服务（猫咪图片和GIF） | No | Yes | No |
 | [Cats](https://docs.thecatapi.com/) | 来自Tumblr的猫咪图片 | `apiKey` | Yes | No |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | 随机狗狗趣闻 | No | Yes | Yes |
