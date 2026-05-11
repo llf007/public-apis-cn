@@ -555,6 +555,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [FingerprintJS Pro](https://dev.fingerprintjs.com/docs) | 提供高精度浏览器指纹识别的欺诈检测API | `apiKey` | Yes | Yes |
 | [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | 使用AI筛选订单信息以检测欺诈 | `apiKey` | Yes | Unknown |
 | [FullHunt](https://api-docs.fullhunt.io/#introduction) | 可搜索的整个互联网攻击面数据库 | `apiKey` | Yes | Unknown |
+| [IPASIS](https://ipasis.com/docs) | 实时机器人检测和欺诈预防API，包含IP信誉评分、VPN/代理检测和电子邮件验证 | `apiKey` | Yes | Yes |
 | [GitGuardian](https://api.gitguardian.com/doc) | 扫描文件中的密钥（API密钥、数据库凭证） | `apiKey` | Yes | No |
 | [GreyNoise](https://docs.greynoise.io/reference/get_v3-community-ip) | 查询GreyNoise数据集中的IP并检索完整IP上下文数据的子集 | `apiKey` | Yes | Unknown |
 | [HackerOne](https://api.hackerone.com/) | 业界首个黑客API，帮助提高创意漏洞赏金猎人的工作效率 | `apiKey` | Yes | Unknown |
