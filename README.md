@@ -509,7 +509,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Twitch](https://dev.twitch.tv/docs) | 游戏流媒体API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | 读写Twitter数据 | `OAuth` | Yes | No |
 | [SocialData API](https://socialdata.tools) | 读Twitter数据 | `apiKey` | 是 | 否 |
-| [Xquik](https://xquik.com) | X (Twitter) 全功能数据 API，122 个端点。搜索推文、用户查询、发帖、监控、提取 | `apiKey` | Yes | Yes |
+| [Xquik](https://docs.xquik.com/api-reference/overview) | + X(Twitter) 数据 API，用于推文搜索、资料页推文、粉丝导出、媒体下载、发帖、监控和 Webhooks | `apiKey` | Yes | Unknown |
 | [vk](https://vk.com/dev/sites) | 读写vk数据 | `OAuth` | Yes | Unknown |
 
 **[⬆ 返回目录](#index)**
