@@ -1698,6 +1698,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [AnonFiles](https://anonfiles.com/docs/api) | 匿名上传和分享您的文件 | No | Yes | Unknown |
 | [BayFiles](https://bayfiles.com/docs/api) | 上传和分享您的文件 | No | Yes | Unknown |
 | [Box](https://developer.box.com/) | 文件共享和存储 | `OAuth` | Yes | Unknown |
+| [BrewPage](https://kochetkov-ma.github.io/brewpage-openapi/) | 🆓 免费托管 HTML/Markdown/KV/JSON/文件，无需注册，附带短链接 | No | Yes | Yes |
 | [ddownload](https://ddownload.com/api) | 文件共享和存储 | `apiKey` | Yes | Unknown |
 | [Dropbox](https://www.dropbox.com/developers) | 文件共享和存储 | `OAuth` | Yes | Unknown |
 | [File.io](https://www.file.io) | 超级简单的文件共享，方便、匿名和安全 | No | Yes | Unknown |
