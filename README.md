@@ -1274,6 +1274,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Binlist](https://binlist.net/) | 公开访问IIN/BIN信息数据库 | No | Yes | Unknown |
 | [Boleto.Cloud](https://boleto.cloud/) | 在巴西生成boletos的API | `apiKey` | Yes | Unknown |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | 所有花旗集团账户和报表数据API | `apiKey` | Yes | Unknown |
+| [Dino Markets](https://dino.markets/docs) | 预测市场数据：跨平台匹配 Kalshi 与 Polymarket 市场，套利信号按可成交深度计算 | `apiKey` | Yes | Unknown |
 | [Econdb](https://www.econdb.com/api/) | 全球宏观经济数据 | No | Yes | Yes |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | 美国财政部数据 | No | Yes | Unknown |
 | [Finage](https://finage.co.uk) | Finage是股票、货币、加密货币、指数和ETF的实时和历史数据提供商 | `apiKey` | Yes | Unknown |
@@ -1281,6 +1282,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Finnhub](https://finnhub.io/docs/api) | 股票、货币和加密货币的实时RESTful API和Websocket | `apiKey` | Yes | Unknown |
 | [FRED](https://fred.stlouisfed.org/docs/api/fred/) | 来自圣路易斯联邦储备银行的经济数据 | `apiKey` | Yes | Yes |
 | [Front Accounting APIs](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | Front会计是一款面向小型企业的多语言多货币软件 | `OAuth` | Yes | Yes |
+| [Goldprice.dev](https://goldprice.dev/docs) | 黄金、白银、铜现货与期货价格，各国金商报价，期权概率面，支持 31 种货币 | No | Yes | Unknown |
 | [Hotstoks](https://hotstoks.com?utm_source=public-apis) | 由SQL驱动的股票市场数据 | `apiKey` | Yes | Yes |
 | [IEX Cloud](https://iexcloud.io/docs/api/) | 实时和历史股票和市场数据 | `apiKey` | Yes | Yes |
 | [IG](https://labs.ig.com/gettingstarted) | 差价合约和点差投注市场数据 | `apiKey` | Yes | Unknown |
@@ -1598,6 +1600,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | 汇率集合 | No | Yes | Unknown |
 | [Economia.Awesome](https://docs.awesomeapi.com.br/api-de-moedas) | 葡萄牙语免费货币价格和兑换，无速率限制 | No | Yes | Unknown |
 | [ExchangeRate-API](https://www.exchangerate-api.com) | 免费货币兑换 | `apiKey` | Yes | Yes |
+| [Exchangerate.dev](https://exchangerate.dev/docs) | 实时与历史外汇汇率，465 个货币对，标注数据来源，兼容 Frankfurter，免费每月 1 万次 | No | Yes | Unknown |
 | [Exchangerate.host](https://exchangerate.host) | 免费外汇和加密货币汇率API | No | Yes | Unknown |
 | [Exchangeratesapi.io](https://exchangeratesapi.io) | 汇率和货币兑换 | `apiKey` | Yes | Yes |
 | [Frankfurter](https://www.frankfurter.app/docs) | 汇率、货币兑换和时间序列 | No | Yes | Yes |
