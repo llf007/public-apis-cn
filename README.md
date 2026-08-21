@@ -377,7 +377,6 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Code Detection API](https://codedetectionapi.runtime.dev) | 检测、标记、格式化和丰富您的应用程序或数据管道中的代码 | `OAuth` | Yes | Unknown |
 | [apilayer languagelayer](https://languagelayer.com/) | 支持173种语言的语言检测JSON API | `OAuth` | Yes | Unknown |
-| [Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started) | 信息检索和自然语言API的集合 | `apiKey` | Yes | Unknown |
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api) | 自然语言处理和文本分析 | `apiKey` | Yes | Yes |
 | [Detect Language](https://detectlanguage.com/) | 检测文本语言 | `apiKey` | Yes | Unknown |
 | [ELI](https://nlp.insightera.co.th/docs/v1.0) | 泰语自然语言处理工具 | `apiKey` | Yes | Unknown |
@@ -785,6 +784,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [apilayer mediastack](https://mediastack.com/) | 免费、简单的实时新闻和博客文章REST API | `apiKey` | Yes | Unknown |
+| [APITube](https://apitube.io/) | 多语言实时新闻搜索，含情感分析和实体提取 | `apiKey` | Yes | Yes |
 | [Associated Press](https://developer.ap.org/) | 搜索美联社的新闻和元数据 | `apiKey` | Yes | Unknown |
 | [Chronicling America](http://chroniclingamerica.loc.gov/about/api/) | 提供访问国会图书馆的数百万页历史美国报纸 | No | No | Unknown |
 | [Currents](https://currentsapi.services/) | 来自各种新闻来源、博客和论坛的最新新闻 | `apiKey` | Yes | Yes |
