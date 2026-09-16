@@ -1648,6 +1648,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [CryptoCompare](https://www.cryptocompare.com/api#) | 加密货币比较 | No | Yes | Unknown |
 | [CryptoMarket](https://api.exchange.cryptomkt.com/) | 加密货币交易平台 | `apiKey` | Yes | Yes |
 | [Cryptonator](https://www.cryptonator.com/api/) | 加密货币交易所汇率 | No | Yes | Unknown |
+| [Deep Blue Alpha](https://deepbluealpha.io/whale-api) | 实时以太坊巨鲸钱包追踪 — 20,000+钱包，DEX交易买卖分类，净流量分析，信念评分 | `apiKey` | Yes | Yes |
 | [dYdX](https://docs.dydx.exchange/) | 去中心化加密货币交易所 | `apiKey` | Yes | Unknown |
 | [Ethplorer](https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API) | 以太坊代币、余额、地址、交易历史、合约和自定义结构 | `apiKey` | Yes | Unknown |
 | [EXMO](https://documenter.getpostman.com/view/10287440/SzYXWKPi) | 基于英国的加密货币交易所 | `apiKey` | Yes | Unknown |
