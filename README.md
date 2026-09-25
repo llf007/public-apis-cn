@@ -1276,6 +1276,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Boleto.Cloud](https://boleto.cloud/) | 在巴西生成boletos的API | `apiKey` | Yes | Unknown |
 | [Citi](https://sandbox.developerhub.citi.com/api-catalog-list) | 所有花旗集团账户和报表数据API | `apiKey` | Yes | Unknown |
 | [Econdb](https://www.econdb.com/api/) | 全球宏观经济数据 | No | Yes | Yes |
+| [Eulerpool](https://eulerpool.com/developers) | 全球股票、ETF、宏观、加密货币和外汇数据，含基本面和 100 多年历史数据 | `apiKey` | Yes | Yes |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | 美国财政部数据 | No | Yes | Unknown |
 | [Finage](https://finage.co.uk) | Finage是股票、货币、加密货币、指数和ETF的实时和历史数据提供商 | `apiKey` | Yes | Unknown |
 | [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | 实时和历史股票数据 | `apiKey` | Yes | Unknown |
