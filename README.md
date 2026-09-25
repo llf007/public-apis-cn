@@ -187,6 +187,7 @@
 | [AusPost](https://developers.auspost.com.au/) | 澳大利亚邮政的API服务，提供追踪等 | `apiKey` | 是 | 未知 |
 | [Canada Post](https://www.canadapost-postescanada.ca/info/mc/business/productsservices/developers/tour/howitworks.jsf) | 加拿大邮政的API服务，包括追踪和计费 | `apiKey` | 是 | 未知 |
 | [New Zealand Post](https://www.nzpost.co.nz/business/ecommerce/developer-resource-centre) | 新西兰邮政的API服务，提供追踪等 | `apiKey` | 是 | 未知 |
+| [TradeData](https://tradedata.io) | 全球 200+ 国家与地区海关提单与关务数据查询 API，支持企业画像与 HS Code 分类 | `apiKey` | 是 | 未知 |
 
 **[⬆ 返回目录](#目录)**
 
