@@ -98,6 +98,7 @@
 | [美团LongCat](https://longcat.chat) | 🆓+💰 美团公司开源的LongCat龙猫系列AI大模型 | `apiKey` | 是 |
 | [零一万物](https://platform.lingyiwanwu.com/) | 🆓+💰李开复投资的AI模型公司，小模型开源，大模型以API提供服务，现已转型Agent平台 | `apiKey` | 是 |
 | [孟子](https://www.langboat.com/) | 🆓+💰澜舟科技的孟子3-13B模型开源，已转型Agent平台 | `apiKey` | 是 |
+| [onomeo](https://onomeo.com/zh) | 🆓+💰 个人运营的 AI 接口聚合站（公测中），一把兼容 OpenAI 的密钥可调用 48 个模型；每日签到领免费额度（首日 5 万，连续签到第 7 天起每天 20 万），也可付费购买；免费模型来自各服务商的免费档，部分会用对话训练 | `apiKey` | 是 |
 
 
 <img width="1425" height="435" alt="image" src="https://github.com/user-attachments/assets/54c6a0a8-981b-42a7-a1e4-ff74edf3e829" />
