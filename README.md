@@ -390,6 +390,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Sentiment Analysis](https://www.meaningcloud.com/developer/sentiment-analysis) | 来自不同来源文本的多语言情感分析 | `apiKey` | Yes | Yes |
 | [Tisane](https://tisane.ai/) | 专注于检测滥用内容和执法应用的文本分析 | `OAuth` | Yes | Yes |
 | [Watson Natural Language Understanding](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding) | 用于高级文本分析的自然语言处理 | `OAuth` | Yes | Unknown |
+| [Vend](https://extract.paypercall.dev) | 💰 面向AI智能体的按次付费Web数据API：抓取任意URL并返回干净的文本/Markdown，还支持网页搜索、链接检查、IP地理定位和PDF转文本；每次调用在Nano（XNO）链上结算，无订阅费。 | `x402` | Yes | Unknown |
 
 **[⬆ 返回目录](#index)**
 
