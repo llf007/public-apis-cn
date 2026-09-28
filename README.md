@@ -1244,6 +1244,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Fruityvice](https://www.fruityvice.com) | 关于各种水果的数据 | No | Yes | Unknown |
 | [Kroger](https://developer.kroger.com/reference) | 超市数据 | `apiKey` | Yes | Unknown |
 | [LCBO](https://lcboapi.com/) | 酒类 | `apiKey` | Yes | Unknown |
+| [Noms](https://noms.sh/docs) | 🆓+💰 覆盖 230 个国家/地区的 370 万种食品和 29.8 万个品牌的营养成分数据，支持条形码查询 | `apiKey` | Yes | Yes |
 | [Open Brewery DB](https://www.openbrewerydb.org) | 啤酒厂、苹果酒厂和精酿啤酒瓶装店 | No | Yes | Yes |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | 食品产品数据库 | No | Yes | Unknown |
 | [PunkAPI](https://punkapi.com/) | Brewdog啤酒配方 | No | Yes | Unknown |
