@@ -1250,6 +1250,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Rustybeer](https://rustybeer.herokuapp.com/) | 啤酒酿造工具 | No | Yes | No |
 | [Spoonacular](https://spoonacular.com/food-api) | 食谱、食品产品和膳食计划 | `apiKey` | Yes | Unknown |
 | [Systembolaget](https://api-portal.systembolaget.se) | 瑞典政府拥有的酒类商店 | `apiKey` | Yes | Unknown |
+| [TableJourney](https://tablejourney.com/api/v1/docs) | 214个城市经核实的餐厅、市场与街头小吃（附来源与核实日期）、美食节日期、美食游览、住宿与租车 | No | Yes | Yes |
 | [TacoFancy](https://github.com/evz/tacofancy-api) | 社区驱动的塔可数据库 | No | No | Unknown |
 | [Tasty](https://rapidapi.com/apidojo/api/tasty/) | 查询食谱、计划、成分数据的API | `apiKey` | Yes | Unknown |
 | [The Report of the Week](https://github.com/andyklimczak/TheReportOfTheWeek-API) | 食品和饮料评论 | No | Yes | Unknown |
