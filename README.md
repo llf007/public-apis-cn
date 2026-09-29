@@ -963,6 +963,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [City, Toronto Open Data](https://open.toronto.ca/) | 多伦多（加拿大）城市开放数据 | No | Yes | Yes |
 | [Code.gov](https://code.gov) | 美国联邦政府开源和代码共享的主要平台 | `apiKey` | Yes | Unknown |
 | [Colorado Information Marketplace](https://data.colorado.gov/) | 科罗拉多州政府开放数据 | No | Yes | Unknown |
+| [Court Rules](https://www.courtrules.app/api) | 🆓 美国联邦法院规则、法官个案规则与法院节假日数据，支持备案合规检查（REST API 与 MCP 服务器） | `apiKey` | Yes | No |
 | [Data USA](https://datausa.io/about/api/) | 美国公共数据 | No | Yes | Unknown |
 | [Data.gov](https://api.data.gov/) | 美国政府数据 | `apiKey` | Yes | Unknown |
 | [Data.parliament.uk](https://explore.data.parliament.uk/?learnmore=Members) | 包含实时数据集，包括请愿书、法案、议员投票、出席等信息 | No | No | Unknown |
