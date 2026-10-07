@@ -1288,6 +1288,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Finnhub](https://finnhub.io/docs/api) | 股票、货币和加密货币的实时RESTful API和Websocket | `apiKey` | Yes | Unknown |
 | [FRED](https://fred.stlouisfed.org/docs/api/fred/) | 来自圣路易斯联邦储备银行的经济数据 | `apiKey` | Yes | Yes |
 | [Front Accounting APIs](https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule) | Front会计是一款面向小型企业的多语言多货币软件 | `OAuth` | Yes | Yes |
+| [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=public-apis-cn&utm_content=readme) | 22种货币的官方宏观经济数据，每条数据带发布时间戳，另有经济日历、央行利率决议和外汇汇率；美元数据无需API密钥 | `apiKey` | Yes | No |
 | [Hotstoks](https://hotstoks.com?utm_source=public-apis) | 由SQL驱动的股票市场数据 | `apiKey` | Yes | Yes |
 | [IEX Cloud](https://iexcloud.io/docs/api/) | 实时和历史股票和市场数据 | `apiKey` | Yes | Yes |
 | [IG](https://labs.ig.com/gettingstarted) | 差价合约和点差投注市场数据 | `apiKey` | Yes | Unknown |
