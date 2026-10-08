@@ -1622,6 +1622,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [0x](https://0x.org/api) | 用于查询各种流动性池中代币和池统计数据的API | No | Yes | Yes |
 | [1inch](https://1inch.io/api/) | 用于查询去中心化交易所的API | No | Yes | Unknown |
 | [Alchemy Ethereum](https://docs.alchemy.com/alchemy/) | 以太坊节点即服务提供商 | `apiKey` | Yes | Yes |
+| [Aperiodic](https://aperiodic.io) | Binance、OKX、Hyperliquid 等交易所的加密货币永续合约市场微观结构、流动性和订单流指标，以及原始成交和报价数据（Parquet 格式） | `apiKey` | Yes | Yes |
 | [apilayer coinlayer](https://coinlayer.com) | 实时加密货币汇率 | `apiKey` | Yes | Unknown |
 | [Binance](https://github.com/binance/binance-spot-api-docs) | 基于中国的加密货币交易交易所 | `apiKey` | Yes | Unknown |
 | [Bitcambio](https://nova.bitcambio.com.br/api/v3/docs#a-public) | 获取交易所中所有交易资产的列表 | No | Yes | Unknown |
