@@ -1760,6 +1760,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Charity Search](http://charityapi.orghunter.com/) | 非营利慈善数据 | `apiKey` | No | Unknown |
 | [Clearbit Logo](https://clearbit.com/docs#logo-api) | 搜索公司标志并将其嵌入您的项目中 | `apiKey` | Yes | Unknown |
 | [CoworkingView](https://coworkingview.com/en/api) | 德国、西班牙、英国、荷兰和阿联酋的联合办公空间与私人办公室搜索，含运营商公布的价格和各城市市场价，免密钥 | No | Yes | No |
+| [Datacircle](https://docs.datacircle.dev) | 💰 通过我们查询你最喜欢的 B2B 数据 API。同样的请求，同样的价格，不加价 | `apiKey` | Yes | No |
 | [Domainsdb.info](https://domainsdb.info/) | 注册域名搜索 | No | Yes | No |
 | [Freelancer](https://developers.freelancer.com) | 雇佣自由职业者完成工作 | `OAuth` | Yes | Unknown |
 | [Gmail](https://developers.google.com/gmail/api/) | 对用户收件箱的灵活RESTful访问 | `OAuth` | Yes | Unknown |
