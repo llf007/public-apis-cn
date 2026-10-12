@@ -1766,6 +1766,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Gmail](https://developers.google.com/gmail/api/) | 对用户收件箱的灵活RESTful访问 | `OAuth` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | 收集、配置和分析您的数据以触达正确的受众 | `OAuth` | Yes | Unknown |
 | [Instatus](https://instatus.com/help/api) | 通过HTTP REST API发布和更新状态页面的维护和事件 | `apiKey` | Yes | Unknown |
+| [looot](https://looot.ai) | 💰 一个 API 密钥和一份预付余额，可调用约 2,500 个数据接口：工作邮箱、电话、公司信息补全、谷歌搜索结果、网页读取。按调用付费 | `apiKey` | Yes | Unknown |
 | [Mailchimp](https://mailchimp.com/developer/) | 发送营销活动和交易邮件 | `apiKey` | Yes | Unknown |
 | [mailjet](https://www.mailjet.com/) | 可以使用API发送营销电子邮件，并发送用MJML或HTML制作的邮件模板 | `apiKey` | Yes | Unknown |
 | [markerapi](https://markerapi.com) | 商标搜索 | No | No | Unknown |
