@@ -493,6 +493,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [LinkedIn](https://docs.microsoft.com/en-us/linkedin/?context=linkedin/context) | 所有与LinkedIn数字集成的基础 | `OAuth` | Yes | Unknown |
 | [Meetup.com](https://www.meetup.com/api/guide) | 来自Meetup.com的Meetup数据 | `apiKey` | Yes | Unknown |
 | [Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/overview) | 访问Microsoft 365、Windows 10和企业移动中的数据和智能 | `OAuth` | Yes | Unknown |
+| [Multi Upload Tool](https://docs.multi-upload-tool.com) | 💰 一个 API 将视频发布或定时发布到 TikTok、YouTube Shorts、Instagram、Facebook、LinkedIn、Pinterest、Bluesky、Threads 和 X，提供免费套餐 | `apiKey` | Yes | No |
 | [NAVER](https://developers.naver.com/main/) | NAVER登录、在NAVER上分享、社交插件等 | `OAuth` | Yes | Unknown |
 | [Open Collective](https://docs.opencollective.com/help/developers/api) | 获取Open Collective数据 | No | Yes | Unknown |
 | [Pinterest](https://developers.pinterest.com/) | 世界上创意的目录 | `OAuth` | Yes | Unknown |
