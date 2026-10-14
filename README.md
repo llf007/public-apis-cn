@@ -1861,6 +1861,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Europeana](https://pro.europeana.eu/resources/apis/search) | 欧洲博物馆和画廊内容 | `apiKey` | Yes | Unknown |
 | [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs) | 艺术 | `apiKey` | No | Unknown |
 | [Icon Horse](https://icon.horse) | 任何网站的favicon，带有后备选项 | No | Yes | Yes |
+| [FaviconDL](https://favicondl.com) | 免费提取任意网站 favicon（ICO/PNG/SVG），提供无 key API | No | Yes | Yes |
 | [Iconfinder](https://developer.iconfinder.com) | 图标 | `apiKey` | Yes | Unknown |
 | [Icons8](https://img.icons8.com/) | 图标（在页面中查找"搜索图标"超链接） | No | Yes | Unknown |
 | [Lordicon](https://lordicon.com/) | 带有预设动画的图标 | No | Yes | Yes |
