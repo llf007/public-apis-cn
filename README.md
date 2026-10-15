@@ -1480,6 +1480,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api/) | 用于检索和对图像应用转换 | `apiKey` | Yes | Yes |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | 使用此代理作为中间人来绕过讨厌的CORS错误 | No | Yes | Yes |
 | [CountAPI](https://countapi.xyz) | 免费且简单的计数服务。您可以使用它来跟踪页面点击和特定事件 | No | Yes | Yes |
+| [CurlShot](https://curlshot.com/docs) | 🆓+💰 网站截图API：一个GET请求即可将URL、HTML或Markdown转为PNG/JPEG/WebP/PDF图片或滚动视频，支持整页与元素截图、设备预设、深色模式、广告与Cookie横幅拦截。免费版每月100张，无需信用卡 | `apiKey` | Yes | Yes |
 | [Databricks](https://docs.databricks.com/dev-tools/api/latest/index.html) | 管理您的databricks账户、集群、笔记本、作业和工作区的服务 | `apiKey` | Yes | Yes |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | 所有DigitalOcean服务的状态 | No | Yes | Unknown |
 | [Docker Hub](https://docs.docker.com/docker-hub/api/latest/) | 与Docker Hub交互 | `apiKey` | Yes | Yes |
