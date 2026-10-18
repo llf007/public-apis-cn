@@ -1089,6 +1089,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [IPGEO](https://api.techniknews.net/ipgeo/) | 无限免费IP地址API，提供有用信息 | No | Yes | Unknown |
 | [ipgeolocation](https://ipgeolocation.io/) | 每月30k次请求的免费计划的IP地理定位API | `apiKey` | Yes | Yes |
 | [IPInfoDB](https://www.ipinfodb.com/api) | 通过IP地址查找国家、地区、城市和时区的免费地理定位工具和API | `apiKey` | Yes | Unknown |
+| [IPKit](https://ipkit.dev/docs) | 免费IP查询，返回位置、ASN/运营商及VPN/代理/Tor标记（JSON） | No | Yes | Yes |
 | [ipstack](https://ipstack.com/) | 通过IP地址定位和识别网站访问者 | `apiKey` | Yes | Unknown |
 | [Kakao Maps](https://apis.map.kakao.com) | Kakao Maps为韩国地图提供多种API | `apiKey` | Yes | Unknown |
 | [keycdn IP Location Finder](https://tools.keycdn.com/geo) | 通过简单的REST API获取IP地理定位数据。所有响应都是JSON编码的 | `apiKey` | Yes | Unknown |
