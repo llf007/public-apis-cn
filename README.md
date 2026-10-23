@@ -1715,6 +1715,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Box](https://developer.box.com/) | 文件共享和存储 | `OAuth` | Yes | Unknown |
 | [BrewPage](https://kochetkov-ma.github.io/brewpage-openapi/) | 🆓 免费托管 HTML/Markdown/KV/JSON/文件，无需注册，附带短链接 | No | Yes | Yes |
 | [ddownload](https://ddownload.com/api) | 文件共享和存储 | `apiKey` | Yes | Unknown |
+| [deed.page](https://deed.page/docs) | 🆓 一次 PUT 请求即可把 HTML 或静态文件夹发布到永久的 `https://<slug>.deed.page` 网址，无需注册，免费版 25 个站点、每个 25 MB，另有 MCP 服务器 | No | Yes | Yes |
 | [Dropbox](https://www.dropbox.com/developers) | 文件共享和存储 | `OAuth` | Yes | Unknown |
 | [File.io](https://www.file.io) | 超级简单的文件共享，方便、匿名和安全 | No | Yes | Unknown |
 | [Filestack](https://www.filestack.com) | Filestack文件上传器和文件上传API | `apiKey` | Yes | Unknown |
