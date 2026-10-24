@@ -509,6 +509,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [TikTok](https://developers.tiktok.com/doc/login-kit-web) | 获取用户信息和用户在TikTok平台上的视频帖子 | `OAuth` | Yes | Unknown |
 | [Trash Nothing](https://trashnothing.com/developer) | 拥有每天数千件免费物品发布的免费回收社区 | `OAuth` | Yes | Yes |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | 读写Tumblr数据 | `OAuth` | Yes | Unknown |
+| [TweetAPI](https://tweetapi.com/docs/getting-started/overview) | 💰 Twitter 数据 API：推文搜索、用户资料、关注者、列表、社区和 Spaces，也支持发帖和私信，新账号有 100 次免费请求 | `apiKey` | Yes | No |
 | [Twitch](https://dev.twitch.tv/docs) | 游戏流媒体API | `OAuth` | Yes | Unknown |
 | [Twitter](https://developer.twitter.com/en/docs) | 读写Twitter数据 | `OAuth` | Yes | No |
 | [SocialData API](https://socialdata.tools) | 读Twitter数据 | `apiKey` | 是 | 否 |
