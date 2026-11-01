@@ -1601,6 +1601,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [1Forge](https://1forge.com/forex-data-api/api-documentation) | 外汇货币市场数据 | `apiKey` | Yes | Unknown |
+| [AllRatesToday](https://allratestoday.com/docs/) | 160+种货币的实时中间价汇率，以及100+家央行和税务机关的官方汇率，ECB汇率无需API Key | `apiKey` | Yes | Unknown |
 | [Amdoren](https://www.amdoren.com/currency-api/) | 拥有150多种货币的免费货币API | `apiKey` | Yes | Unknown |
 | [apilayer fixer.io](https://fixer.io) | 汇率和货币兑换 | `apiKey` | No | Unknown |
 | [Bank of Russia](https://www.cbr.ru/development/SXML/) | 汇率和货币兑换 | No | Yes | Unknown |
