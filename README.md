@@ -458,6 +458,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Sport Vision](https://developers.decathlon.com/products/sport-vision) | 识别图像中的运动、品牌和装备。还提供体育图像字幕功能 | `apiKey` | Yes | Yes |
 | [Sportmonks Cricket](https://docs.sportmonks.com/cricket/) | 实时板球比分、球员统计和幻想API | `apiKey` | Yes | Unknown |
 | [Sportmonks Football](https://docs.sportmonks.com/football/) | 足球比分/赛程、新闻API、电视频道、统计、历史、显示积分榜如英超、西甲 | `apiKey` | Yes | Unknown |
+| [Sports Odds API (BetRivers, Unibet & 22 more books)](https://apify.com/publicrecords/sports-odds-api) | 💰 BetRivers、Unibet 等24家Kambi体育博彩公司的实时赔率，并给出每个结果的最佳赔率 | `apiKey` | Yes | Unknown |
 | [Squiggle](https://api.squiggle.com.au) | 澳大利亚橄榄球联盟比赛的赛程、结果和预测 | No | Yes | Yes |
 | [Strava](https://strava.github.io/api/) | 与运动员、活动等连接 | `OAuth` | Yes | Unknown |
 | [SuredBits](https://suredbits.com/api/) | 查询体育数据，包括球队、球员、比赛、比分和统计 | No | No | No |
