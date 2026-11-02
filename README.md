@@ -1315,6 +1315,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [RealMarketAPI](https://realmarketapi.com/docs) | 黄金、外汇、加密货币、股票和指数的实时与历史行情 | `apiKey` | Yes | Yes |
 | [roic.ai](https://www.roic.ai/) | 全球 6.8 万+ 家公司的财务报表、财务比率与业绩电话会议文字记录 | `apiKey` | Yes | Unknown |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | 访问美国上市公司年报的API | No | Yes | Yes |
+| [SiftingIO](https://sifting.io/docs) | 🆓/💰 美国股票、ETF、外汇、大宗商品和加密货币的实时与历史 REST API，以及实时 WebSocket 数据流 | `apiKey` | Yes | Unknown |
 | [SmartAPI](https://smartapi.angelbroking.com/) | 获得<SmartAPI>的访问权限并创建端到端经纪服务 | `apiKey` | Yes | Unknown |
 | [StockData](https://www.StockData.org) | 实时、日内和历史市场数据、新闻和情绪API | `apiKey` | Yes | Yes |
 | [Styvio](https://www.Styvio.com) | 实时和历史股票数据以及当前股票情绪 | `apiKey` | Yes | Unknown |
