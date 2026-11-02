@@ -207,6 +207,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Dune](https://github.com/ywalia01/dune-api) | 一个简单的API，提供书籍、角色、电影和语录的JSON数据 | No | Yes | Yes |
 | [Final Space](https://finalspaceapi.com/docs/) | 终极空间API | No | Yes | Yes |
 | [Game of Thrones Quotes](https://gameofthronesquotes.xyz/) | 一些权力的游戏语录 | No | Yes | Unknown |
+| [GetYouTubeTranscript](https://getyoutubetranscript.com/docs?utm_source=public-apis-cn&utm_medium=referral) | 💰 YouTube字幕/转录文本API：一次GET请求返回视频完整字幕的JSON（可选语言和时间戳），另有YouTube搜索、频道、播放列表接口和MCP服务器；每次成功请求1积分，注册送100积分 | `apiKey` | Yes | No |
 | [Harry Potter Characters](https://hp-api.herokuapp.com/) | 哈利波特角色数据，包含图像 | No | Yes | Unknown |
 | [IMDb-API](https://imdb-api.com/) | 接收电影、剧集和演员信息的API | `apiKey` | Yes | Unknown |
 | [IMDbOT](https://github.com/SpEcHiDe/IMDbOT) | 非官方的IMDb电影/系列信息 | No | Yes | Yes |
