@@ -1312,6 +1312,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Portfolio Optimizer](https://portfoliooptimizer.io/) | 投资组合分析和优化 | No | Yes | Yes |
 | [Razorpay IFSC](https://razorpay.com/docs/) | 印度金融系统代码（银行分行代码） | No | Yes | Unknown |
 | [Real Time Finance](https://github.com/Real-time-finance/finance-websocket-API/) | 访问实时股票数据的Websocket API | `apiKey` | No | Unknown |
+| [RealMarketAPI](https://realmarketapi.com/docs) | 黄金、外汇、加密货币、股票和指数的实时与历史行情 | `apiKey` | Yes | Yes |
 | [roic.ai](https://www.roic.ai/) | 全球 6.8 万+ 家公司的财务报表、财务比率与业绩电话会议文字记录 | `apiKey` | Yes | Unknown |
 | [SEC EDGAR Data](https://www.sec.gov/edgar/sec-api-documentation) | 访问美国上市公司年报的API | No | Yes | Yes |
 | [SmartAPI](https://smartapi.angelbroking.com/) | 获得<SmartAPI>的访问权限并创建端到端经纪服务 | `apiKey` | Yes | Unknown |
