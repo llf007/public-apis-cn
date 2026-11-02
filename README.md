@@ -571,6 +571,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Mozilla http scanner](https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md) | Mozilla观测站HTTP扫描器 | No | Yes | Unknown |
 | [Mozilla tls scanner](https://github.com/mozilla/tls-observatory#api-endpoints) | Mozilla观测站TLS扫描器 | No | Yes | Unknown |
 | [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | 美国国家漏洞数据库 | No | Yes | Unknown |
+| [NetAPI](https://netapi.com/help/api/#json-api) | 域名数据API：按关键词搜索1500多个顶级域中新注册的域名，检测域名或IP是否在失陷列表中，查询网站的Top 1M排名，基础查询免费且无需Key | No | Yes | Yes |
 | [Passwordinator](https://github.com/fawazsullia/password-generator/) | 生成不同复杂度的随机密码 | No | Yes | Yes |
 | [PhishStats](https://phishstats.info/) | 网络钓鱼数据库 | No | Yes | Unknown |
 | [Privacy.com](https://privacy.com/developer/docs) | 生成特定商家和一次性使用的信用卡号码，链接回您的银行 | `apiKey` | Yes | Unknown |
