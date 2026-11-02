@@ -1365,6 +1365,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 ### 娱乐
 API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
+| [Bucketlist.nl Dream of the Day](https://bucketlist.nl/brand/droom-van-de-dag.openapi.json) | 🆓 每日活动与旅行灵感，包含图片与来源链接；返回内容不支持中文 | No | Yes | Yes |
 | [chucknorris.io](https://api.chucknorris.io) | 手工精选Chuck Norris笑话的JSON API | No | Yes | Unknown |
 | [Corporate Buzz Words](https://github.com/sameerkumar18/corporate-bs-generator-api) | 企业流行语的REST API | No | Yes | Yes |
 | [Excuser](https://excuser.herokuapp.com/) | 获取各种情况的随机借口 | No | Yes | Unknown |
