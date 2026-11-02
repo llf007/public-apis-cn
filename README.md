@@ -1827,6 +1827,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |---|:---|:---|:---|:---|
 | [Bitquery](https://graphql.bitquery.io/ide) | 链上GraphQL API和DEX API | `apiKey` | Yes | Yes |
+| [BlockVectra](https://docs.blockvectra.com/zh/guides/robinhood-chain/?ref=gh-public-apis-cn) | 🆓 Robinhood Chain 主网公共 JSON-RPC，部分只读方法无需 API key | No | Yes | Unknown |
 | [Chainlink](https://chain.link/developer-resources) | 使用Chainlink构建混合智能合约 | No | Yes | Unknown |
 | [Chainpoint](https://tierion.com/chainpoint/) | Chainpoint是一个全球性的网络，用于将数据锚定到比特币区块链 | No | Yes | Unknown |
 | [Covalent](https://www.covalenthq.com/docs/api/) | 多区块链数据聚合平台 | `apiKey` | Yes | Unknown |
