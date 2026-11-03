@@ -76,6 +76,7 @@
 
 | API | 描述 | 认证方式 | 支持HTTPS |
 |:---|:---|:---:|:---:|
+| [KaijuConverter API & MCP](https://kaijuconverter.com/api-docs) | 支持 201+ 种文件格式转换（HEIC、PDF、DOCX、CSV、ODS、CAD、音视频）及 54 款精修工具与官方 MCP 服务 | `apiKey` | 是 | 是 |
 | [NVIDIA NIM](https://build.nvidia.com/models) | 🆓 英伟达官方推理加速平台，提供 1000+ 免费积分试用，集成 Llama、DeepSeek 等主流开源模型，限制 40 RPM | 是 | 是 |
 | [DeepSeek深度求索](https://www.deepseek.com) | 🆓+💰 深度求索公司开源的AI模型，非常友好的MIT开源协议！AI模型界的“拼多多” | `apiKey` | 是 |
 | [Qwen通义千问](https://tongyi.aliyun.com/) | 🆓💰阿里巴巴开源AI模型，中型以下模型开源，MAX模型主要以云服务提供API，网友称真正的OpenAI | `apiKey` | 是 |
