@@ -1398,6 +1398,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [mail.tm](https://docs.mail.tm) | 临时电子邮件服务 | No | Yes | Yes |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | 验证电子邮件地址以提高送达率 | `apiKey` | Yes | Unknown |
 | [MailCheck.ai](https://www.mailcheck.ai/#documentation) | 防止用户使用临时电子邮件地址注册 | No | Yes | Unknown |
+| [MailVeri](https://mailveri.com/docs/api) | 电子邮件地址验证（SMTP、catch-all、一次性邮箱和角色邮箱检测），支持批量 | `apiKey` | Yes | Unknown |
 | [Mailtrap](https://mailtrap.docs.apiary.io/#) | 用于安全测试开发和暂存环境发送的电子邮件的服务 | `apiKey` | Yes | Unknown |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | 基于云的SMTP提供商，允许您发送电子邮件而无需维护邮件服务器 | `apiKey` | Yes | Unknown |
 | [Sendinblue](https://developers.sendinblue.com/docs) | 提供营销和/或交易电子邮件和/或短信解决方案的服务 | `apiKey` | Yes | Unknown |
