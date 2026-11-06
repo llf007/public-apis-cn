@@ -525,6 +525,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 |:---|:---|:---|:---|:---|
 | [Best Buy](https://bestbuyapis.github.io/api-documentation/#overview) | 产品、购买选项、分类、推荐、商店和商务 | `apiKey` | Yes | Unknown |
+| [Clickwise](https://partners.clickwise.net/developers/) | Affiliate programs, deals and tracked links, plus product search by text or GTIN. | `apiKey` | Yes | Unknown |
 | [Digi-Key](https://www.digikey.com/en/resources/api-solutions) | 检索电子元件的价格和库存以及下订单 | `OAuth` | Yes | Unknown |
 | [Dummy Products](https://dummyproducts-api.herokuapp.com/) | 用于获取带占位符图像的虚拟电子商务产品JSON数据的API | `apiKey` | Yes | Yes |
 | [eBay](https://developer.ebay.com/) | 在eBay上买卖 | `OAuth` | Yes | Unknown |
