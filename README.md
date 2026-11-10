@@ -1699,6 +1699,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Technical Analysis](https://technical-analysis-api.com) | 加密货币价格和技术分析 | `apiKey` | Yes | No |
 | [VALR](https://docs.valr.com/) | 基于南非的加密货币交易所 | `apiKey` | Yes | Unknown |
 | [WorldCoinIndex](https://www.worldcoinindex.com/apiservice) | 加密货币价格 | `apiKey` | Yes | Unknown |
+| [XMRList](https://xmrlist.com/api) | 门罗币(XMR)商家目录API：商家列表、分类、评级和门罗经济统计 | No | Yes | Yes |
 | [ZMOK](https://zmok.io) | 以太坊JSON RPC API和Web3提供商 | No | Yes | Unknown |
 
 **[⬆ 返回目录](#index)**
