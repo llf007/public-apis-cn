@@ -1583,6 +1583,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [StackExchange](https://api.stackexchange.com/) | 开发者问答论坛 | `OAuth` | Yes | Unknown |
 | [Statically](https://statically.io/) | 开发者的免费CDN | No | Yes | Yes |
 | [Supportivekoala](https://developers.supportivekoala.com/) | 使用模板自动生成图像 | `apiKey` | Yes | Yes |
+| [TimeFoo](https://time.foo/api/) | 🆓 获取任意 IANA 时区的当前时间，以及时间戳格式和时区转换，无需密钥 | No | Yes | Yes |
 | [Tyk](https://tyk.io/open-source/) | API和服务管理平台 | `apiKey` | Yes | Yes |
 | [Wandbox](https://github.com/melpon/wandbox/blob/master/kennel2/API.rst) | 支持wandbox.org上提到的35+种语言的代码编译器 | No | Yes | Unknown |
 | [WebScraping.AI](https://webscraping.ai/) | 带有内置代理和JS渲染的网络抓取API | `apiKey` | Yes | Yes |
