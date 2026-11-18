@@ -504,6 +504,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Revolt](https://developers.revolt.chat/api/) | Revolt开源Discord替代品 | `apiKey` | Yes | Unknown |
 | [Saidit](https://www.saidit.net/dev/api) | 开源Reddit克隆 | `OAuth` | Yes | Unknown |
 | [Slack](https://api.slack.com/) | 团队即时通讯 | `OAuth` | Yes | Unknown |
+| [Social Fetch](https://www.socialfetch.dev/docs) | 💰 TikTok、Instagram、YouTube、X、Reddit、LinkedIn 等平台的公开资料、帖子、评论、字幕和搜索结果，以 JSON 返回，另有托管的 MCP 服务，注册送 100 免费积分 | `apiKey` | Yes | Yes |
 | [TamTam](https://dev.tamtam.chat/) | 与TamTam交互的Bot API | `apiKey` | Yes | Unknown |
 | [Telegram Bot](https://core.telegram.org/bots/api) | 简化的MTProto API HTTP版本用于机器人 | `apiKey` | Yes | Unknown |
 | [Telegram MTProto](https://core.telegram.org/api#getting-started) | 读写Telegram数据 | `OAuth` | Yes | Unknown |
