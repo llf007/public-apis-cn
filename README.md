@@ -825,7 +825,6 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Audiomack](https://www.audiomack.com/data-api/docs) | Audiomack流音乐中心的API | `OAuth` | Yes | Unknown |
 | [Bandcamp](https://bandcamp.com/developer) | Bandcamp音乐商店API | `OAuth` | Yes | Unknown |
 | [Bandsintown](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) | 音乐活动 | No | Yes | Unknown |
-| [No Stairs Please](https://nostairsplease.com/mcp) | 美国50州小型现场音乐演出场地目录与MCP接口 | No | Yes | Yes |
 | [Deezer](https://developers.deezer.com/api) | 音乐 | `OAuth` | Yes | Unknown |
 | [Discogs](https://www.discogs.com/developers/) | 音乐 | `OAuth` | Yes | Unknown |
 | [Freesound](https://freesound.org/docs/api/) | 音乐样本 | `apiKey` | Yes | Unknown |
@@ -843,6 +842,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) | 音乐 | No | Yes | Unknown |
 | [Musixmatch](https://developer.musixmatch.com/) | 音乐 | `apiKey` | Yes | Unknown |
 | [Napster](https://developer.napster.com/api/v2.2) | 音乐 | `apiKey` | Yes | Yes |
+| [No Stairs Please](https://nostairsplease.com/mcp) | 美国50州小型现场音乐演出场地目录与MCP接口 | No | Yes | Yes |
 | [Openwhyd](https://openwhyd.github.io/openwhyd/API) | 下载流媒体曲目的策展播放列表（YouTube、SoundCloud等...） | No | Yes | No |
 | [Phishin](https://phish.in/api-docs) | 一个基于网络的即兴摇滚乐队Phish的合法现场音频录音档案 | `apiKey` | Yes | No |
 | [Radio Browser](https://api.radio-browser.info/) | 网络电台列表 | No | Yes | Yes |
