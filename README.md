@@ -897,6 +897,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [DevITjobs UK](https://devitjobs.uk/job_feed.xml) | GraphQL工作 | No | Yes | Yes |
 | [Findwork](https://findwork.dev/developers/) | 招聘板 | `apiKey` | Yes | Unknown |
 | [GraphQL Jobs](https://graphql.jobs/docs/api/) | GraphQL工作 | No | Yes | Yes |
+| [Jobs Every Hour](https://jobseveryhour.com/api/) | 每小时从雇主官网招聘页读取的在招岗位，按类别、技能、地区和公司提供 JSON 接口和 RSS | No | Yes | Yes |
 | [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf) | 职位聚合器 | `apiKey` | Yes | Unknown |
 | [Jooble](https://jooble.org/api/about) | 职位搜索引擎 | `apiKey` | Yes | Unknown |
 | [Juju](http://www.juju.com/publisher/spec/) | 职位搜索引擎 | `apiKey` | No | Unknown |
