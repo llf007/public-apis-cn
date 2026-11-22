@@ -1550,7 +1550,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Nationalize.io](https://nationalize.io) | 估算名字的国籍 | No | Yes | Yes |
 | [Netlify](https://docs.netlify.com/api/get-started/) | Netlify是一个面向可编程网络的托管服务 | `OAuth` | Yes | Unknown |
 | [NetworkCalc](https://networkcalc.com/api/docs) | 网络计算器，包括子网、DNS、二进制和安全工具 | No | Yes | Yes |
-| [NodeRings](https://api.noderings.com/v1/openapi.json) | 🆓 通过统一 API 发现、部署并管理来自独立托管服务商的计算资源 | `apiKey` | Yes | Unknown |
+| [NodeRings](https://docs.noderings.com/docs/client-api) | 💰 通过统一 API 发现、部署并管理来自独立托管服务商的计算资源 | `apiKey` | Yes | Unknown |
 | [npm Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) | 以编程方式查询您喜欢的Node.js库的信息 | No | Yes | Unknown |
 | [OneSignal](https://documentation.onesignal.com/docs/onesignal-api) | 推送通知、电子邮件、短信和应用内的自助客户服务参与解决方案 | `apiKey` | Yes | Unknown |
 | [Open Page Rank](https://www.domcop.com/openpagerank/) | 使用Page Rank算法计算和比较不同网站指标的API | `apiKey` | Yes | Unknown |
