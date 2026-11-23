@@ -764,7 +764,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | 德国联邦统计局 | `OAuth` | Yes | Unknown |
 | [Joshua Project](https://api.joshuaproject.net/) | 世界上基督徒最少的民族群体 | `apiKey` | Yes | Unknown |
 | [Kaggle](https://www.kaggle.com/docs/api) | 创建和交互数据集、笔记本，并与Kaggle连接 | `apiKey` | Yes | Unknown |
-| [Lantern Works](https://thelanternworks.com/api/) | 🆓 GPU 云租赁价格、价格变动和优惠的免费只读 JSON 接口，另提供 MCP 服务器，数据采用 CC BY 4.0 | No | Yes | Yes |
+| [Lantern Works](https://thelanternworks.com/api/) | 🆓 GPU 云租赁价格、价格变动与优惠的免费只读 JSON 数据接口，数据采用 CC BY 4.0 | No | Yes | Yes |
 | [LinkPreview](https://www.linkpreview.net) | 获取任何请求URL的JSON格式摘要，包括标题、描述和预览图片 | `apiKey` | Yes | Yes |
 | [Lowy Asia Power Index](https://github.com/0x0is1/lowy-index-api-docs) | 获取衡量资源和影响力以排名亚洲国家的相对实力 | No | Yes | Unknown |
 | [Microlink.io](https://microlink.io) | 从任何网站提取结构化数据 | No | Yes | Yes |
