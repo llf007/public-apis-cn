@@ -1429,7 +1429,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Html2PDF](https://html2pdf.app/) | HTML/URL转PDF | `apiKey` | Yes | Unknown |
 | [iLovePDF](https://developer.ilovepdf.com/) | 转换、合并、拆分、提取文本和添加PDF页码。每月250个文档免费 | `apiKey` | Yes | Yes |
 | [JIRA](https://developer.atlassian.com/server/jira/platform/rest-apis/) | JIRA是一款专有的问题跟踪产品，允许错误跟踪和敏捷项目管理 | `OAuth` | Yes | Unknown |
-| [KaijuConverter](https://kaijuconverter.com/api-docs) | 免费/付费在线文件转换 REST API，支持 201+ 种文档、图像、音频、视频、电子表格与 CAD 格式转换及 54 款处理工具 | `apiKey` | Yes | Yes |
+| [KaijuConverter](https://kaijuconverter.com/api-docs) | 免费/付费在线文件转换 REST API，支持 200+ 种文档、图像、音频、视频格式互转及 PDF 处理 | `apiKey` | Yes | Yes |
 | [Mattermost](https://api.mattermost.com/) | 用于开发者协作的开源平台 | `OAuth` | Yes | Unknown |
 | [Mercury](https://mercury.postlight.com/web-parser/) | 网络解析器 | `apiKey` | Yes | Unknown |
 | [Monday](https://api.developer.monday.com/docs) | 以编程方式访问和更新monday.com账户中的数据 | `apiKey` | Yes | Unknown |
