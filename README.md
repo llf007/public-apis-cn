@@ -1788,6 +1788,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Freelancer](https://developers.freelancer.com) | 雇佣自由职业者完成工作 | `OAuth` | Yes | Unknown |
 | [Gmail](https://developers.google.com/gmail/api/) | 对用户收件箱的灵活RESTful访问 | `OAuth` | Yes | Unknown |
 | [Google Analytics](https://developers.google.com/analytics/) | 收集、配置和分析您的数据以触达正确的受众 | `OAuth` | Yes | Unknown |
+| [Hermoso](https://hermoso.ai/docs/) | 🆓+💰 AI 营销 API：调研竞品广告，生成图片和视频广告，发布和排期社媒内容，管理 Meta、Google、TikTok、LinkedIn 等广告投放，另提供托管的 MCP 服务，有免费套餐 | `apiKey` | Yes | Unknown |
 | [Instatus](https://instatus.com/help/api) | 通过HTTP REST API发布和更新状态页面的维护和事件 | `apiKey` | Yes | Unknown |
 | [looot](https://looot.ai) | 💰 一个 API 密钥和一份预付余额，可调用约 2,500 个数据接口：工作邮箱、电话、公司信息补全、谷歌搜索结果、网页读取。按调用付费 | `apiKey` | Yes | Unknown |
 | [Mailchimp](https://mailchimp.com/developer/) | 发送营销活动和交易邮件 | `apiKey` | Yes | Unknown |
