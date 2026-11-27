@@ -486,6 +486,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Foursquare](https://developer.foursquare.com/) | 与Foursquare用户和地点交互（基于位置的打卡、照片、提示、活动等） | `OAuth` | Yes | Unknown |
 | [Fuck Off as a Service](https://www.foaas.com) | 让某人滚蛋 | No | Yes | Unknown |
 | [Full Contact](https://docs.fullcontact.com/) | 获取社交媒体个人资料和联系信息 | `OAuth` | Yes | Unknown |
+| [Groundsocial](https://groundsocial.dev/docs) | 💰 Reddit、X、TikTok、Instagram、YouTube、LinkedIn 等 77 个平台的公开帖子、评论、资料和搜索结果，以各平台原生 JSON 返回，另有托管 MCP 服务，注册送 100 免费积分 | `apiKey` | Yes | No |
 | [HackerNews](https://github.com/HackerNews/API) | 面向计算机科学和创业的社会新闻 | No | Yes | Unknown |
 | [Hashnode](https://hashnode.com) | 为开发者构建的博客平台 | No | Yes | Unknown |
 | [Instagram](https://www.instagram.com/developer/) | Instagram登录、在Instagram上分享、社交插件等 | `OAuth` | Yes | Unknown |
