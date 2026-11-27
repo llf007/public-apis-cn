@@ -1408,6 +1408,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [Mailtrap](https://mailtrap.docs.apiary.io/#) | 用于安全测试开发和暂存环境发送的电子邮件的服务 | `apiKey` | Yes | Unknown |
 | [Sendgrid](https://docs.sendgrid.com/api-reference/) | 基于云的SMTP提供商，允许您发送电子邮件而无需维护邮件服务器 | `apiKey` | Yes | Unknown |
 | [Sendinblue](https://developers.sendinblue.com/docs) | 提供营销和/或交易电子邮件和/或短信解决方案的服务 | `apiKey` | Yes | Unknown |
+| [Tempboxy](https://tempboxy.com/temp-mail-api) | 🆓 免费免注册临时邮箱 REST API 与 MCP 服务器：支持 .com 和 .edu.pl 收件箱、自动提取 OTP 验证码与验证链接、附件访问与自定义有效期 | No | Yes | Yes |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | 验证给定电子邮件是否真实 | `apiKey` | Yes | Yes |
 
 **[⬆ 返回目录](#index)**
