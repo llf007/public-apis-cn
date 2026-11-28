@@ -452,6 +452,7 @@ API | 描述 | 认证Auth | 支持HTTPS | 跨域CORS
 | [NHL Records and Stats](https://gitlab.com/dword4/nhlapi) | NHL历史数据和统计 | No | Yes | Unknown |
 | [Oddsmagnet](https://data.oddsmagnet.com) | 来自多家英国博彩公司的赔率历史 | No | Yes | Yes |
 | [OpenLigaDB](https://www.openligadb.de) | 众包体育联赛结果 | No | Yes | Yes |
+| [PinnFeed](https://pinnfeed.io/docs) | 🆓+💰 通过 REST 和 WebSocket 提供实时 Pinnacle 赔率，含去水（no-vig）公平赔率和收盘赔率历史 | `apiKey` | Yes | Yes |
 | [Premier League Standings ](https://rapidapi.com/heisenbug/api/premier-league-live-scores/) | 当前所有英超积分榜和统计 | `apiKey` | Yes | Unknown |
 | [Sport Data](https://sportdataapi.com) | 获取来自世界各地的体育数据 | `apiKey` | Yes | Unknown |
 | [Sport List & Data](https://developers.decathlon.com/products/sports) | 体育列表和相关资源 | No | Yes | Yes |
